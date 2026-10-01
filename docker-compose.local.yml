@@ -1,0 +1,14 @@
+# Explicit port override; also works with the original hardcoded Compose file.
+# Run: docker compose -f docker-compose.yml -f docker-compose.local.yml up --build
+services:
+  backend:
+    ports: !override
+      - "127.0.0.1:8001:8000"
+    environment:
+      FRONTEND_ORIGIN: http://localhost:5174
+  frontend:
+    ports: !override
+      - "127.0.0.1:5174:8080"
+    build:
+      args:
+        VITE_BACKEND_URL: http://localhost:8001

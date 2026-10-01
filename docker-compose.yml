@@ -1,0 +1,38 @@
+services:
+  backend:
+    build:
+      context: .
+      dockerfile: backend/Dockerfile
+    env_file: backend/.env
+    environment:
+      INDEX_DIR: /app/data/index
+      DATASET_DIR: /app/data/datasets
+      HF_HOME: /app/data/model-cache
+    ports:
+      - "127.0.0.1:${BACKEND_PORT:-8000}:8000"
+    volumes:
+      - visual-data:/app/data
+    init: true
+    healthcheck:
+      test: ["CMD", "python", "-c", "import urllib.request; urllib.request.urlopen('http://localhost:8000/health', timeout=5)"]
+      interval: 15s
+      timeout: 10s
+      retries: 5
+      # The first CPU build can take hours. Frontend starts after the API is ready.
+      start_period: 24h
+  frontend:
+    build:
+      context: .
+      dockerfile: frontend/Dockerfile
+      args:
+        VITE_BACKEND_URL: ${VITE_BACKEND_URL:-http://localhost:8000}
+        VITE_API_KEY: ${VITE_API_KEY:?Run python3 scripts/setup.py before starting}
+        VITE_MAX_UPLOAD_MB: ${VITE_MAX_UPLOAD_MB:-10}
+    ports:
+      - "127.0.0.1:${FRONTEND_PORT:-5173}:8080"
+    depends_on:
+      backend:
+        condition: service_healthy
+    init: true
+volumes:
+  visual-data:
