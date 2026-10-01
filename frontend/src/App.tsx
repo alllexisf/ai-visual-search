@@ -1,0 +1,82 @@
+import { useEffect, useRef, useState } from 'react'
+import { Aperture, ArrowDownToLine, ArrowRight, Check, ChevronRight, CircleHelp, Cpu, Database, Flower2, ImagePlus, Layers3, Loader2, PawPrint, ScanSearch, Search, SlidersHorizontal, Sparkles, Upload, X } from 'lucide-react'
+import { health, imageSearch, maxUploadMB, textSearch, thumbnail } from './api'
+import type { Health, SearchResponse, SearchResult } from './api'
+import { Scatter } from './Scatter'
+
+function ResultCard({ result, rank, active, onActive }: { result: SearchResult; rank: number; active: boolean; onActive: (id: number | null) => void }) {
+  const [url, setUrl] = useState(''), [error, setError] = useState(false)
+  useEffect(() => {
+    const controller = new AbortController(); let objectUrl = ''; let disposed = false
+    setUrl(''); setError(false)
+    thumbnail(result.thumbnail_url, controller.signal).then(blob => {
+      if (disposed) return
+      objectUrl = URL.createObjectURL(blob); setUrl(objectUrl)
+    }).catch(e => { if (e.name !== 'AbortError' && !disposed) setError(true) })
+    return () => { disposed = true; controller.abort(); if (objectUrl) URL.revokeObjectURL(objectUrl) }
+  }, [result.thumbnail_url])
+  return <article tabIndex={0} onFocus={() => onActive(result.id)} onBlur={() => onActive(null)} onMouseEnter={() => onActive(result.id)} onMouseLeave={() => onActive(null)} className={`result-card ${active ? 'active' : ''}`}>
+    <div className="result-image">{url ? <img src={url} alt={result.label} loading="lazy"/> : <div className="image-placeholder">{error ? <span>Thumbnail unavailable</span> : <Loader2 size={22} className="animate-spin"/>}</div>}<span className="rank-badge">{String(rank).padStart(2, '0')}</span><span className={`dataset-badge ${result.dataset.toLowerCase()}`}>{result.dataset === 'Pets' ? <PawPrint size={10}/> : <Flower2 size={10}/>} {result.dataset}</span></div>
+    <div className="result-info"><h3 title={result.label}>{result.label}</h3><div className="similarity-label"><span>Similarity</span><strong>{(result.similarity * 100).toFixed(1)}<small>%</small></strong></div><div className="similarity-track" role="meter" aria-label={`${result.label} cosine similarity`} aria-valuemin={-100} aria-valuemax={100} aria-valuenow={result.similarity * 100}><span style={{ width: `${Math.max(0, result.similarity * 100)}%` }}/></div></div>
+  </article>
+}
+
+export default function App() {
+  const [mode, setMode] = useState<'image' | 'text'>('image')
+  const [query, setQuery] = useState(''), [preview, setPreview] = useState(''), [fileName, setFileName] = useState('')
+  const [data, setData] = useState<SearchResponse | null>(null), [loading, setLoading] = useState(false), [error, setError] = useState('')
+  const [info, setInfo] = useState<Health | null>(null), [connection, setConnection] = useState<'connecting' | 'online' | 'offline'>('connecting')
+  const [drag, setDrag] = useState(false), [topK, setTopK] = useState(12), [filter, setFilter] = useState('All')
+  const [active, setActive] = useState<number | null>(null), [help, setHelp] = useState(false)
+  const fileInput = useRef<HTMLInputElement>(null), controller = useRef<AbortController | null>(null), runId = useRef(0)
+  const lastFile = useRef<File | null>(null), helpClose = useRef<HTMLButtonElement>(null), helpTrigger = useRef<HTMLElement | null>(null)
+  useEffect(() => {
+    const c = new AbortController()
+    const check = () => health(c.signal).then(h => { setInfo(h); setConnection('online') }).catch(e => { if (e.name !== 'AbortError') setConnection('offline') })
+    check(); const timer = window.setInterval(check, 15000)
+    return () => { c.abort(); clearInterval(timer); controller.current?.abort() }
+  }, [])
+  useEffect(() => () => { if (preview) URL.revokeObjectURL(preview) }, [preview])
+  useEffect(() => { if (help) helpClose.current?.focus() }, [help])
+  async function run(kind: 'image' | 'text', file?: File, text?: string, count = topK) {
+    controller.current?.abort(); const c = new AbortController(); controller.current = c
+    const id = ++runId.current
+    setLoading(true); setError(''); setFilter('All'); setActive(null)
+    try {
+      const response = kind === 'image' && file ? await imageSearch(file, count, c.signal) : await textSearch((text || query).trim(), count, c.signal)
+      if (id === runId.current) { setData(response); setConnection('online') }
+    } catch (e) {
+      if (id === runId.current && (e as Error).name !== 'AbortError') { setError(e instanceof TypeError ? 'Cannot reach the backend. Start both services and check the frontend URL and CORS origin.' : (e as Error).message); setData(null) }
+    } finally { if (id === runId.current) setLoading(false) }
+  }
+  function accept(file?: File) {
+    if (!file) return
+    if (!['image/jpeg', 'image/png', 'image/webp'].includes(file.type)) { setError('Choose a JPEG, PNG, or WebP image.'); return }
+    if (file.size > maxUploadMB * 1024 * 1024) { setError(`Choose an image smaller than ${maxUploadMB} MB.`); return }
+    setMode('image'); setPreview(URL.createObjectURL(file)); setFileName(file.name); lastFile.current = file
+    run('image', file)
+  }
+  function switchMode(next: 'image' | 'text') { setMode(next); setError('') }
+  function clear() {
+    controller.current?.abort(); runId.current++; setLoading(false); setPreview(''); setFileName(''); lastFile.current = null; setData(null); setError(''); if (fileInput.current) fileInput.current.value = ''
+  }
+  function openHelp() { helpTrigger.current = document.activeElement as HTMLElement; setHelp(true) }
+  function closeHelp() { setHelp(false); helpTrigger.current?.focus() }
+  const visible = data?.results.filter(r => filter === 'All' || r.dataset === filter) || []
+  return <div className="app-shell">
+    <aside className="sidebar"><a href="#" className="brand" aria-label="Lens home" onClick={e => { e.preventDefault(); clear() }}><span className="brand-mark"><Aperture size={23}/></span>lens<span className="brand-dot">.</span></a><span className="sidebar-caption">VISUAL DISCOVERY</span><nav aria-label="Main navigation"><button className="nav-item selected" onClick={() => switchMode('image')}><ScanSearch size={19}/>Visual search<ChevronRight size={14}/></button><button className="nav-item" onClick={openHelp}><Layers3 size={19}/>How it works</button></nav><div className="sidebar-bottom"><div className="engine-card"><span className="engine-icon"><Cpu size={19}/></span><strong>Small model.<br/>Big perspective.</strong><p>Powered by CLIP ViT-B/32.<br/>Running on your CPU.</p><div className="engine-tag"><span/>LOCAL INFERENCE</div></div><button className="help-link" onClick={openHelp}><CircleHelp size={16}/>About this project<ArrowRight size={14}/></button><div className="version">PORTFOLIO PROJECT <span>v1.0</span></div></div></aside>
+    <div className="main-shell"><header className="topbar"><div className="breadcrumb"><span>Workspace</span><ChevronRight size={13}/><strong>Visual search</strong></div><div className={`connection ${connection}`}><span/>{connection === 'online' ? 'Engine connected' : connection === 'connecting' ? 'Connecting to engine' : 'Engine offline'}</div></header>
+      <main><div className="page-heading"><div><div className="eyebrow"><Sparkles size={13}/> A DIFFERENT WAY TO SEARCH</div><h1>Find what looks <span>familiar.</span></h1><p>Drop an image or describe a thought. Discover the closest visual matches.</p></div><span className="local-pill"><Cpu size={14}/>100% local search</span></div>
+        <div className="stats-strip"><div><span className="stat-icon purple"><ImagePlus size={19}/></span><div><strong>{info ? info.dataset_size.toLocaleString() : '15.5k'}<small>{info ? ' images indexed' : ' image target'}</small></strong><p>One shared visual space</p></div></div><div><span className="stat-icon green"><Database size={18}/></span><div><strong>{info ? info.classes : '139'}<small> classes</small></strong><p>Oxford Pets + Flowers102</p></div></div><div><span className="stat-icon orange"><Layers3 size={19}/></span><div><strong>512<small> dimensions</small></strong><p>CLIP ViT-B/32 embeddings</p></div></div></div>
+        <div className="workspace-grid"><section className="input-column"><div className="panel search-panel"><div className="panel-title"><h2>Your search</h2><span className="tiny-pill">01</span></div><div className="mode-tabs" role="tablist" aria-label="Search type"><button role="tab" aria-selected={mode === 'image'} className={mode === 'image' ? 'chosen' : ''} onClick={() => switchMode('image')}><ImagePlus size={15}/>Image</button><button role="tab" aria-selected={mode === 'text'} className={mode === 'text' ? 'chosen' : ''} onClick={() => switchMode('text')}><Search size={15}/>Text</button></div>
+          {mode === 'image' ? <><input ref={fileInput} type="file" accept="image/jpeg,image/png,image/webp" className="sr-only" aria-label="Upload query image" onChange={e => { accept(e.target.files?.[0]); e.target.value = '' }}/><div className={`upload-zone ${drag ? 'dragging' : ''} ${preview ? 'has-preview' : ''}`} onDragOver={e => { e.preventDefault(); setDrag(true) }} onDragLeave={() => setDrag(false)} onDrop={e => { e.preventDefault(); setDrag(false); accept(e.dataTransfer.files[0]) }}>{preview ? <><img className="query-preview" src={preview} alt="Your uploaded search query"/><button className="remove-image" onClick={clear} aria-label="Remove query image"><X size={16}/></button><button className="change-image" onClick={() => fileInput.current?.click()}><Upload size={13}/>Change image</button></> : <button className="upload-action" onClick={() => fileInput.current?.click()}><span className="upload-illustration"><span className="image-back"/><span className="image-front"><ImagePlus size={30} strokeWidth={1.3}/></span><span className="upload-mini"><ArrowDownToLine size={13}/></span></span><strong>Drop an image here</strong><span>or <b>browse your files</b></span><small>JPEG, PNG, WebP · up to {maxUploadMB} MB</small></button>}</div>{preview && <div className="file-caption"><Check size={13}/><span title={fileName}>{fileName}</span></div>}<p className="input-note"><Sparkles size={13}/>Search starts the moment your image lands.</p></> : <form className="text-form" onSubmit={e => { e.preventDefault(); if (query.trim()) run('text') }}><label htmlFor="text-query">What are you looking for?</label><textarea id="text-query" placeholder="A fluffy golden retriever in the grass…" value={query} maxLength={500} onChange={e => setQuery(e.target.value)}/><button className="primary-button" disabled={!query.trim() || loading}><Search size={15}/>Find visual matches<ArrowRight size={15}/></button><p className="suggestion-caption">A little inspiration</p><div className="suggestions">{['a golden retriever', 'pink flowers', 'a sleeping cat'].map(q => <button type="button" key={q} onClick={() => { setQuery(q); run('text', undefined, q) }}>{q}<ArrowRight size={11}/></button>)}</div></form>}
+          <div className="search-options"><span><SlidersHorizontal size={14}/>Results to show</span><select aria-label="Number of nearest neighbors" value={topK} onChange={e => { const n = Number(e.target.value); setTopK(n); if (mode === 'image' && lastFile.current) run('image', lastFile.current, undefined, n); else if (mode === 'text' && data && query.trim()) run('text', undefined, query, n) }}><option value="6">6 matches</option><option value="12">12 matches</option><option value="24">24 matches</option></select></div>
+        </div><div className="panel plot-panel"><div className="panel-title"><h2>Visual neighborhood</h2><span className="pca-tag">PCA · 2D</span></div>{data ? <Scatter data={data} active={active} setActive={setActive}/> : <div className="plot-empty"><div className="empty-orbit"><span/><span/><span/><span/><span/><span/></div><strong>See the connections.</strong><p>Your query and its nearest neighbors<br/>will appear in this shared space.</p><div className="plot-legend"><span><i className="diamond"/>Your query</span><span><i className="pet-dot"/>Pets</span><span><i className="flower-dot"/>Flowers</span></div></div>}</div></section>
+        <section className="results-column" aria-label="Search results"><div className="results-header"><div><h2>Nearest neighbors {data && <span>{data.results.length}</span>}</h2><p>{data ? `Ranked by cosine similarity · ${(data.timings.total_ms / 1000).toFixed(2)}s` : 'A new perspective is one search away.'}</p></div><div className="filters" aria-label="Filter returned results">{['All', 'Pets', 'Flowers'].map(f => <button key={f} aria-pressed={filter === f} className={filter === f ? 'chosen' : ''} onClick={() => setFilter(f)}>{f}</button>)}</div></div>
+          {error && <div className="error-banner" role="alert"><CircleHelp size={18}/><div><strong>Search needs a little attention</strong><p>{error}</p></div><button onClick={() => setError('')} aria-label="Dismiss error"><X size={16}/></button></div>}
+          <div aria-live="polite" aria-busy={loading}>{loading ? <><div className="loading-label"><Loader2 size={16} className="animate-spin"/>Finding your visual matches…</div><div className="result-grid">{Array.from({ length: 6 }, (_, i) => <div className="skeleton-card animate-pulse" key={i}><div/><span/><span/></div>)}</div></> : data ? <><div className="result-grid">{visible.map(r => <ResultCard key={`${data.index_id}-${r.id}`} result={r} rank={data.results.findIndex(i => i.id === r.id) + 1} active={active === r.id} onActive={setActive}/>)}</div>{!visible.length && <div className="filter-empty">No {filter.toLowerCase()} among these nearest neighbors. Try more results or a different query.</div>}<div className="results-footnote"><span><Check size={12}/>Exact cosine ranking</span><span>Encode {data.timings.embedding_ms.toFixed(0)} ms · Rank {data.timings.ranking_ms.toFixed(1)} ms</span></div><p className="score-note">Similarity is cosine × 100, not a confidence probability. Filters apply to returned matches.</p></> : <div className="empty-results"><div className="empty-art"><div className="tile tile-one"><PawPrint size={36} strokeWidth={1.2}/></div><div className="tile tile-two"><Flower2 size={42} strokeWidth={1.2}/></div><div className="tile tile-three"><ScanSearch size={32} strokeWidth={1.2}/></div><span className="art-spark"><Sparkles size={18}/></span></div><span className="empty-eyebrow">LET CURIOSITY LEAD</span><h3>Similar, in all the right ways.</h3><p>Explore thousands of pets and flowers through<br className="desktop-br"/> shapes, colors, and meaning.</p><div className="steps"><span><b>1</b> Add an image or text</span><ChevronRight size={12}/><span><b>2</b> Discover your matches</span></div><button className="empty-link" onClick={() => { switchMode('text'); document.getElementById('text-query')?.focus() }}>Try a text search<ArrowRight size={14}/></button></div>}</div>
+        </section></div><footer className="page-footer"><span><Aperture size={13}/>lens · An experiment in visual discovery</span><span>CLIP embeddings. Human curiosity.</span></footer>
+      </main></div>
+    {help && <div className="modal-backdrop" onClick={closeHelp}><section role="dialog" aria-modal="true" aria-labelledby="help-title" className="help-modal" onClick={e => e.stopPropagation()} onKeyDown={e => { if (e.key === 'Escape') closeHelp(); if (e.key === 'Tab') { e.preventDefault(); helpClose.current?.focus() } }}><button ref={helpClose} className="modal-close" onClick={closeHelp} aria-label="Close project information"><X size={20}/></button><span className="brand-mark"><Aperture size={24}/></span><h2 id="help-title">A shared space for images and words.</h2><p>CLIP ViT-B/32 turns your query into a normalized 512-dimensional vector. One matrix multiplication compares it with every indexed image, and the highest cosine scores become your matches.</p><p>The index combines all Oxford-IIIT Pets and Flowers102 splits. Thumbnails keep browsing lightweight. PCA is fitted offline on the index; the same basis projects each new query.</p><p>Search and thumbnails stay on your local backend. The first setup downloads public datasets and pretrained weights. The frontend API key is suitable for this local portfolio setup; a public deployment would use a server-side proxy.</p><div className="modal-detail"><Database size={16}/>{info ? `${info.dataset_size.toLocaleString()} images · ${info.classes} classes · index ${info.index_id}` : 'Start the backend to inspect the active index.'}</div></section></div>}
+  </div>
+}
