@@ -1,0 +1,11870 @@
+{
+  "metrics": {
+    "precision_at_1": 0.9035971223021583,
+    "precision_at_5": 0.8581294964028778,
+    "top_5_hit_rate": 0.9769784172661871
+  },
+  "dataset_size": 15538,
+  "number_of_classes": 139,
+  "number_of_queries": 695,
+  "seed": 42,
+  "all_images": false,
+  "hardware": {
+    "cpu_model": "aarch64",
+    "logical_cores": 8,
+    "physical_cores": 8,
+    "ram_gib": 7.75,
+    "platform": "Linux-6.12.76-linuxkit-aarch64-with-glibc2.41"
+  },
+  "index_manifest": {
+    "schema_version": 1,
+    "index_id": "e74982f744e53ca5",
+    "model_id": "openai/clip-vit-base-patch32",
+    "model_revision": "3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268",
+    "dataset_size": 15538,
+    "number_of_classes": 139,
+    "datasets": {
+      "Flowers": 8189,
+      "Pets": 7349
+    },
+    "embedding_dimension": 512,
+    "normalized": true,
+    "thumbnail_size": 320,
+    "built_at_utc": "2026-10-01T01:08:08.094048+00:00",
+    "hardware": {
+      "cpu_model": "aarch64",
+      "logical_cores": 8,
+      "physical_cores": 8,
+      "ram_gib": 7.75,
+      "platform": "Linux-6.12.76-linuxkit-aarch64-with-glibc2.41"
+    },
+    "torch_threads": 4,
+    "batch_size": 32,
+    "build_seconds": 5713.995210144,
+    "sha256": {
+      "index.npy": "6b8225988c8ae8219d730b2b605b482cbaa60c5d55adf9a613623b87abb79eb7",
+      "metadata.json": "d58f39d62c096b1fa240d2d920e6cc1870b1fbaa53c8a85827a8682f5cb201c5",
+      "pca.json": "86711e9ca9dfb6d6439ce6d6b06ebc6f3f4679950df4994d217cf0b8a3f33cc5"
+    }
+  },
+  "index_sha256": "6b8225988c8ae8219d730b2b605b482cbaa60c5d55adf9a613623b87abb79eb7",
+  "queries": [
+    {
+      "query_id": 6761,
+      "neighbor_ids": [
+        6737,
+        6760,
+        6765,
+        6770,
+        6734
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6750,
+      "neighbor_ids": [
+        6764,
+        6739,
+        6734,
+        6737,
+        6735
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6757,
+      "neighbor_ids": [
+        6742,
+        6748,
+        6765,
+        6739,
+        6735
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6736,
+      "neighbor_ids": [
+        6740,
+        6763,
+        6751,
+        6739,
+        6737
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6772,
+      "neighbor_ids": [
+        6746,
+        6771,
+        6734,
+        6769,
+        6737
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5142,
+      "neighbor_ids": [
+        5141,
+        5144,
+        5145,
+        5135,
+        5116
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5091,
+      "neighbor_ids": [
+        5116,
+        5132,
+        5143,
+        5092,
+        5088
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5116,
+      "neighbor_ids": [
+        5145,
+        5119,
+        5132,
+        5087,
+        5142
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5131,
+      "neighbor_ids": [
+        5094,
+        5099,
+        5107,
+        5114,
+        5102
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5129,
+      "neighbor_ids": [
+        5107,
+        5114,
+        5094,
+        5143,
+        5098
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3136,
+      "neighbor_ids": [
+        3101,
+        3162,
+        3163,
+        3156,
+        3141
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3163,
+      "neighbor_ids": [
+        3123,
+        3154,
+        3155,
+        3098,
+        3115
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3131,
+      "neighbor_ids": [
+        3129,
+        3167,
+        3151,
+        2444,
+        3169
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 3125,
+      "neighbor_ids": [
+        3159,
+        3154,
+        3155,
+        3132,
+        3115
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3109,
+      "neighbor_ids": [
+        3110,
+        3143,
+        7304,
+        3100,
+        5666
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 7970,
+      "neighbor_ids": [
+        7968,
+        7943,
+        7994,
+        7969,
+        7981
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7954,
+      "neighbor_ids": [
+        1801,
+        1772,
+        1749,
+        7989,
+        7990
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7966,
+      "neighbor_ids": [
+        7965,
+        7945,
+        7943,
+        7996,
+        7947
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7965,
+      "neighbor_ids": [
+        7989,
+        7966,
+        7947,
+        7945,
+        1723
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 7985,
+      "neighbor_ids": [
+        700,
+        7945,
+        610,
+        631,
+        1369
+      ],
+      "relevant": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 8006,
+      "neighbor_ids": [
+        8036,
+        8011,
+        8035,
+        8014,
+        8007
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8036,
+      "neighbor_ids": [
+        8006,
+        8035,
+        8011,
+        8005,
+        8014
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8043,
+      "neighbor_ids": [
+        8012,
+        7999,
+        8009,
+        8000,
+        8045
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8011,
+      "neighbor_ids": [
+        8007,
+        8006,
+        8014,
+        8036,
+        8035
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8028,
+      "neighbor_ids": [
+        8035,
+        8036,
+        8014,
+        8030,
+        8029
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4068,
+      "neighbor_ids": [
+        4072,
+        4047,
+        4070,
+        4063,
+        4055
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4060,
+      "neighbor_ids": [
+        4063,
+        4069,
+        6326,
+        4034,
+        4058
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4030,
+      "neighbor_ids": [
+        4032,
+        4045,
+        4034,
+        4046,
+        3995
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4073,
+      "neighbor_ids": [
+        6562,
+        6326,
+        6327,
+        6339,
+        4000
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 4051,
+      "neighbor_ids": [
+        3999,
+        3996,
+        4075,
+        3993,
+        4059
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5745,
+      "neighbor_ids": [
+        5767,
+        5790,
+        5770,
+        5747,
+        5771
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5765,
+      "neighbor_ids": [
+        5768,
+        5791,
+        5787,
+        5777,
+        5751
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5768,
+      "neighbor_ids": [
+        5765,
+        5787,
+        5791,
+        5777,
+        5755
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5779,
+      "neighbor_ids": [
+        5789,
+        5754,
+        5781,
+        5751,
+        248
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 5750,
+      "neighbor_ids": [
+        5765,
+        5768,
+        5777,
+        5755,
+        5753
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6094,
+      "neighbor_ids": [
+        6058,
+        6057,
+        6079,
+        6050,
+        6067
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6065,
+      "neighbor_ids": [
+        6073,
+        6090,
+        6064,
+        6071,
+        6053
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6062,
+      "neighbor_ids": [
+        6079,
+        6088,
+        6094,
+        6057,
+        6063
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6066,
+      "neighbor_ids": [
+        6058,
+        4087,
+        6060,
+        6094,
+        6056
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6090,
+      "neighbor_ids": [
+        6073,
+        6071,
+        6089,
+        6064,
+        6053
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6365,
+      "neighbor_ids": [
+        6347,
+        6367,
+        6388,
+        6357,
+        6366
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6361,
+      "neighbor_ids": [
+        6348,
+        6359,
+        6362,
+        6377,
+        6392
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6367,
+      "neighbor_ids": [
+        6388,
+        6347,
+        6365,
+        6357,
+        6380
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6377,
+      "neighbor_ids": [
+        6346,
+        6357,
+        6380,
+        6358,
+        6361
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6350,
+      "neighbor_ids": [
+        6365,
+        6383,
+        4406,
+        6346,
+        6358
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6679,
+      "neighbor_ids": [
+        6674,
+        6666,
+        6689,
+        6690,
+        6670
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6676,
+      "neighbor_ids": [
+        1266,
+        8188,
+        6670,
+        1203,
+        7633
+      ],
+      "relevant": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 6683,
+      "neighbor_ids": [
+        6652,
+        6668,
+        6673,
+        6655,
+        4626
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 6657,
+      "neighbor_ids": [
+        3275,
+        4634,
+        6687,
+        6681,
+        6655
+      ],
+      "relevant": [
+        false,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6667,
+      "neighbor_ids": [
+        6674,
+        6672,
+        4643,
+        6666,
+        4632
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 3859,
+      "neighbor_ids": [
+        3906,
+        3830,
+        3839,
+        3866,
+        3833
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3903,
+      "neighbor_ids": [
+        3837,
+        3889,
+        3862,
+        3842,
+        3853
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3896,
+      "neighbor_ids": [
+        3882,
+        3877,
+        3827,
+        3833,
+        3872
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3862,
+      "neighbor_ids": [
+        3888,
+        3873,
+        3833,
+        3879,
+        3905
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3892,
+      "neighbor_ids": [
+        3895,
+        3909,
+        3829,
+        3853,
+        3868
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4253,
+      "neighbor_ids": [
+        4277,
+        4299,
+        4279,
+        4312,
+        4296
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4308,
+      "neighbor_ids": [
+        4251,
+        4316,
+        4304,
+        3574,
+        4271
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 4258,
+      "neighbor_ids": [
+        4312,
+        4277,
+        4279,
+        3638,
+        4284
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 4243,
+      "neighbor_ids": [
+        4316,
+        4246,
+        4244,
+        4279,
+        4314
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4323,
+      "neighbor_ids": [
+        4294,
+        4320,
+        4292,
+        989,
+        620
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 6185,
+      "neighbor_ids": [
+        6195,
+        6187,
+        6176,
+        6196,
+        6194
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6169,
+      "neighbor_ids": [
+        6154,
+        6150,
+        6190,
+        6156,
+        2477
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 6180,
+      "neighbor_ids": [
+        6176,
+        6172,
+        6169,
+        6190,
+        6150
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6175,
+      "neighbor_ids": [
+        6192,
+        5652,
+        6171,
+        6426,
+        6196
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 6161,
+      "neighbor_ids": [
+        6196,
+        6186,
+        6176,
+        6195,
+        4761
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 4903,
+      "neighbor_ids": [
+        4949,
+        722,
+        4937,
+        4906,
+        6100
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 4933,
+      "neighbor_ids": [
+        4934,
+        4916,
+        514,
+        4929,
+        7056
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 4902,
+      "neighbor_ids": [
+        4915,
+        4904,
+        2016,
+        4897,
+        4929
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4909,
+      "neighbor_ids": [
+        4944,
+        4929,
+        4911,
+        2148,
+        2126
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 4920,
+      "neighbor_ids": [
+        4943,
+        4911,
+        4929,
+        4897,
+        4939
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6635,
+      "neighbor_ids": [
+        6611,
+        6634,
+        6624,
+        6612,
+        4724
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 6633,
+      "neighbor_ids": [
+        6645,
+        5612,
+        5680,
+        6647,
+        7304
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 6639,
+      "neighbor_ids": [
+        6629,
+        6402,
+        6635,
+        6172,
+        6424
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 6613,
+      "neighbor_ids": [
+        6623,
+        4727,
+        5663,
+        4701,
+        4759
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 6632,
+      "neighbor_ids": [
+        6641,
+        6640,
+        6642,
+        6624,
+        7765
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 6795,
+      "neighbor_ids": [
+        6799,
+        6791,
+        8029,
+        6790,
+        6801
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6774,
+      "neighbor_ids": [
+        6812,
+        6788,
+        6800,
+        6783,
+        6796
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6786,
+      "neighbor_ids": [
+        6796,
+        6787,
+        6812,
+        6783,
+        6807
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6783,
+      "neighbor_ids": [
+        6787,
+        6791,
+        6801,
+        6796,
+        6797
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6790,
+      "neighbor_ids": [
+        6811,
+        6792,
+        6783,
+        6795,
+        6796
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5340,
+      "neighbor_ids": [
+        5352,
+        5343,
+        5348,
+        5355,
+        5363
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5386,
+      "neighbor_ids": [
+        5381,
+        5378,
+        5394,
+        5387,
+        5339
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5387,
+      "neighbor_ids": [
+        5367,
+        5355,
+        5345,
+        5378,
+        5351
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5352,
+      "neighbor_ids": [
+        5340,
+        5344,
+        5348,
+        5382,
+        5380
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5393,
+      "neighbor_ids": [
+        5388,
+        5358,
+        5391,
+        5347,
+        5367
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3393,
+      "neighbor_ids": [
+        3370,
+        3378,
+        3405,
+        3385,
+        3422
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3406,
+      "neighbor_ids": [
+        3447,
+        3402,
+        3410,
+        3404,
+        3432
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3418,
+      "neighbor_ids": [
+        3439,
+        3415,
+        3426,
+        3396,
+        3410
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3379,
+      "neighbor_ids": [
+        3432,
+        3386,
+        3391,
+        3452,
+        3385
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3426,
+      "neighbor_ids": [
+        3415,
+        3428,
+        3450,
+        3418,
+        3390
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6846,
+      "neighbor_ids": [
+        8050,
+        6847,
+        6819,
+        6821,
+        6813
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6829,
+      "neighbor_ids": [
+        6815,
+        6843,
+        6826,
+        6831,
+        6833
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6826,
+      "neighbor_ids": [
+        6833,
+        6818,
+        6844,
+        6831,
+        6813
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8049,
+      "neighbor_ids": [
+        6822,
+        8047,
+        6813,
+        6844,
+        6826
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6828,
+      "neighbor_ids": [
+        6823,
+        6844,
+        6825,
+        6813,
+        6831
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6588,
+      "neighbor_ids": [
+        6597,
+        6608,
+        6589,
+        6605,
+        6578
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6599,
+      "neighbor_ids": [
+        6574,
+        6601,
+        6578,
+        6571,
+        6591
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6598,
+      "neighbor_ids": [
+        6592,
+        6574,
+        6578,
+        6579,
+        6601
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6573,
+      "neighbor_ids": [
+        6576,
+        6585,
+        6403,
+        6604,
+        6587
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6597,
+      "neighbor_ids": [
+        6588,
+        6605,
+        6574,
+        6601,
+        7097
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 6506,
+      "neighbor_ids": [
+        6519,
+        6526,
+        6508,
+        6522,
+        6514
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6513,
+      "neighbor_ids": [
+        6493,
+        6516,
+        6495,
+        6514,
+        6505
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6491,
+      "neighbor_ids": [
+        6516,
+        6520,
+        6493,
+        6513,
+        6521
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6520,
+      "neighbor_ids": [
+        6521,
+        6508,
+        6500,
+        6489,
+        6517
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6505,
+      "neighbor_ids": [
+        6525,
+        6508,
+        6493,
+        6495,
+        6513
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6872,
+      "neighbor_ids": [
+        6874,
+        6877,
+        6879,
+        6855,
+        6867
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6887,
+      "neighbor_ids": [
+        6885,
+        6872,
+        6874,
+        6877,
+        6884
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6874,
+      "neighbor_ids": [
+        6877,
+        6872,
+        6884,
+        6868,
+        6867
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6859,
+      "neighbor_ids": [
+        6867,
+        6868,
+        6874,
+        6855,
+        6872
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6863,
+      "neighbor_ids": [
+        6874,
+        6856,
+        6877,
+        6884,
+        6879
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5234,
+      "neighbor_ids": [
+        5253,
+        5265,
+        5211,
+        6180,
+        6169
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 5243,
+      "neighbor_ids": [
+        5222,
+        5228,
+        5220,
+        5238,
+        5216
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5232,
+      "neighbor_ids": [
+        5211,
+        5263,
+        5228,
+        5214,
+        5259
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5271,
+      "neighbor_ids": [
+        5276,
+        5270,
+        5251,
+        5252,
+        5256
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5270,
+      "neighbor_ids": [
+        5273,
+        5252,
+        5262,
+        5276,
+        5271
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4135,
+      "neighbor_ids": [
+        4093,
+        7108,
+        4122,
+        4130,
+        7118
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 4151,
+      "neighbor_ids": [
+        4119,
+        4152,
+        4127,
+        4083,
+        4116
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4139,
+      "neighbor_ids": [
+        4133,
+        4126,
+        4140,
+        4157,
+        4130
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4099,
+      "neighbor_ids": [
+        4150,
+        4156,
+        4129,
+        4140,
+        4157
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4100,
+      "neighbor_ids": [
+        4153,
+        4109,
+        4137,
+        4136,
+        4111
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3534,
+      "neighbor_ids": [
+        3484,
+        3533,
+        3532,
+        3505,
+        1486
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 3466,
+      "neighbor_ids": [
+        7764,
+        7750,
+        5606,
+        3547,
+        4826
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 3465,
+      "neighbor_ids": [
+        3494,
+        3463,
+        3459,
+        7815,
+        3935
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 3469,
+      "neighbor_ids": [
+        5349,
+        5809,
+        6949,
+        7802,
+        5366
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 3496,
+      "neighbor_ids": [
+        4789,
+        7992,
+        3615,
+        3566,
+        4777
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 5637,
+      "neighbor_ids": [
+        5649,
+        5647,
+        5667,
+        5673,
+        5641
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5670,
+      "neighbor_ids": [
+        2451,
+        2453,
+        7154,
+        2517,
+        5669
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 5643,
+      "neighbor_ids": [
+        5644,
+        5653,
+        5631,
+        5649,
+        5667
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5658,
+      "neighbor_ids": [
+        5639,
+        5647,
+        5635,
+        5667,
+        5649
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5659,
+      "neighbor_ids": [
+        6191,
+        6164,
+        5683,
+        6629,
+        4761
+      ],
+      "relevant": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 6922,
+      "neighbor_ids": [
+        8070,
+        1188,
+        2341,
+        3518,
+        3588
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 6905,
+      "neighbor_ids": [
+        3476,
+        8072,
+        3494,
+        3528,
+        3462
+      ],
+      "relevant": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 6924,
+      "neighbor_ids": [
+        8068,
+        8074,
+        3513,
+        3490,
+        3931
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 6912,
+      "neighbor_ids": [
+        6906,
+        6911,
+        6920,
+        6891,
+        6900
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6911,
+      "neighbor_ids": [
+        6916,
+        6920,
+        6897,
+        1309,
+        8072
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 5624,
+      "neighbor_ids": [
+        5598,
+        5626,
+        5627,
+        2917,
+        5596
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 5586,
+      "neighbor_ids": [
+        5592,
+        5623,
+        5589,
+        5607,
+        5583
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5601,
+      "neighbor_ids": [
+        5589,
+        5591,
+        5627,
+        3541,
+        3542
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 5609,
+      "neighbor_ids": [
+        3542,
+        3933,
+        3475,
+        5624,
+        1352
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 5616,
+      "neighbor_ids": [
+        7781,
+        2514,
+        5624,
+        2496,
+        3934
+      ],
+      "relevant": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 6446,
+      "neighbor_ids": [
+        6445,
+        6457,
+        6441,
+        6456,
+        6449
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6469,
+      "neighbor_ids": [
+        6473,
+        6447,
+        6472,
+        6466,
+        6477
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6454,
+      "neighbor_ids": [
+        6480,
+        6477,
+        6472,
+        6483,
+        6470
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6471,
+      "neighbor_ids": [
+        6441,
+        6442,
+        6475,
+        6457,
+        6479
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6447,
+      "neighbor_ids": [
+        6466,
+        6445,
+        6473,
+        6479,
+        6463
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6934,
+      "neighbor_ids": [
+        6955,
+        6948,
+        6953,
+        6938,
+        6957
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6951,
+      "neighbor_ids": [
+        2279,
+        6941,
+        6928,
+        6939,
+        6937
+      ],
+      "relevant": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6966,
+      "neighbor_ids": [
+        5987,
+        5964,
+        5996,
+        5966,
+        5979
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 6939,
+      "neighbor_ids": [
+        6955,
+        6963,
+        6937,
+        6931,
+        6934
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6963,
+      "neighbor_ids": [
+        6964,
+        6958,
+        6965,
+        6962,
+        6940
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8085,
+      "neighbor_ids": [
+        8086,
+        6980,
+        8083,
+        6977,
+        8084
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6979,
+      "neighbor_ids": [
+        6985,
+        6988,
+        6978,
+        6990,
+        7091
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 6985,
+      "neighbor_ids": [
+        6988,
+        6978,
+        7090,
+        6979,
+        8090
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 6968,
+      "neighbor_ids": [
+        6986,
+        6983,
+        6995,
+        7000,
+        7004
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6974,
+      "neighbor_ids": [
+        6991,
+        6972,
+        4146,
+        7005,
+        6080
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 4361,
+      "neighbor_ids": [
+        4386,
+        4371,
+        4379,
+        4343,
+        4384
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4344,
+      "neighbor_ids": [
+        4356,
+        4384,
+        4374,
+        4379,
+        4337
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4330,
+      "neighbor_ids": [
+        4355,
+        4351,
+        4338,
+        4356,
+        4379
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4374,
+      "neighbor_ids": [
+        4344,
+        4385,
+        4379,
+        4372,
+        4376
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4360,
+      "neighbor_ids": [
+        4396,
+        4362,
+        4359,
+        4377,
+        4388
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3789,
+      "neighbor_ids": [
+        3790,
+        3824,
+        3791,
+        3793,
+        3814
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3761,
+      "neighbor_ids": [
+        3785,
+        7289,
+        3783,
+        3800,
+        3786
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7293,
+      "neighbor_ids": [
+        7294,
+        3760,
+        3768,
+        3758,
+        7289
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3818,
+      "neighbor_ids": [
+        3802,
+        3790,
+        3823,
+        7297,
+        3814
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3782,
+      "neighbor_ids": [
+        3781,
+        3809,
+        3788,
+        3814,
+        3755
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5793,
+      "neighbor_ids": [
+        5819,
+        5829,
+        5825,
+        5835,
+        5795
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5838,
+      "neighbor_ids": [
+        5837,
+        5839,
+        5812,
+        5833,
+        5811
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5807,
+      "neighbor_ids": [
+        5798,
+        5812,
+        5829,
+        5836,
+        5838
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5812,
+      "neighbor_ids": [
+        5833,
+        5803,
+        5838,
+        5829,
+        5836
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5814,
+      "neighbor_ids": [
+        5846,
+        5829,
+        5821,
+        5798,
+        5833
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7027,
+      "neighbor_ids": [
+        7007,
+        7011,
+        1884,
+        7023,
+        1951
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 7018,
+      "neighbor_ids": [
+        7030,
+        4339,
+        4366,
+        4342,
+        4343
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 7033,
+      "neighbor_ids": [
+        5468,
+        7042,
+        7880,
+        7032,
+        5472
+      ],
+      "relevant": [
+        false,
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 7017,
+      "neighbor_ids": [
+        7011,
+        579,
+        8080,
+        5479,
+        522
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 7010,
+      "neighbor_ids": [
+        7037,
+        7013,
+        573,
+        7038,
+        7035
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4618,
+      "neighbor_ids": [
+        4586,
+        4619,
+        4557,
+        4564,
+        4615
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4604,
+      "neighbor_ids": [
+        4591,
+        4613,
+        4622,
+        4615,
+        4609
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4608,
+      "neighbor_ids": [
+        4571,
+        4595,
+        2558,
+        4623,
+        4599
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4598,
+      "neighbor_ids": [
+        4587,
+        4576,
+        4582,
+        4564,
+        4594
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4603,
+      "neighbor_ids": [
+        4594,
+        4598,
+        4576,
+        4615,
+        4564
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5148,
+      "neighbor_ids": [
+        2274,
+        5185,
+        5210,
+        5189,
+        2257
+      ],
+      "relevant": [
+        false,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 5205,
+      "neighbor_ids": [
+        5166,
+        2306,
+        2191,
+        5192,
+        5196
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5160,
+      "neighbor_ids": [
+        5186,
+        2267,
+        4527,
+        5204,
+        5196
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5155,
+      "neighbor_ids": [
+        5190,
+        5191,
+        5201,
+        4551,
+        5857
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 5208,
+      "neighbor_ids": [
+        5173,
+        5204,
+        5178,
+        5170,
+        5189
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2289,
+      "neighbor_ids": [
+        2190,
+        2200,
+        2249,
+        2253,
+        2261
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2290,
+      "neighbor_ids": [
+        2225,
+        2234,
+        2239,
+        2215,
+        2232
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2228,
+      "neighbor_ids": [
+        5192,
+        5204,
+        2203,
+        2275,
+        2193
+      ],
+      "relevant": [
+        false,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2309,
+      "neighbor_ids": [
+        2284,
+        2202,
+        2311,
+        2269,
+        2250
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2245,
+      "neighbor_ids": [
+        2203,
+        2271,
+        2254,
+        2282,
+        2301
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5735,
+      "neighbor_ids": [
+        5742,
+        5695,
+        5713,
+        5717,
+        5696
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5712,
+      "neighbor_ids": [
+        5713,
+        5720,
+        5686,
+        5697,
+        5742
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5698,
+      "neighbor_ids": [
+        5714,
+        5710,
+        5696,
+        5738,
+        5741
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5718,
+      "neighbor_ids": [
+        5734,
+        5742,
+        5705,
+        5695,
+        5697
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5742,
+      "neighbor_ids": [
+        5720,
+        5713,
+        5728,
+        5741,
+        5695
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2370,
+      "neighbor_ids": [
+        2379,
+        7974,
+        2425,
+        7995,
+        6897
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 2352,
+      "neighbor_ids": [
+        2363,
+        2399,
+        8058,
+        4867,
+        4852
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 2444,
+      "neighbor_ids": [
+        2364,
+        2359,
+        2363,
+        2442,
+        2338
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2440,
+      "neighbor_ids": [
+        2379,
+        2438,
+        3615,
+        7974,
+        7982
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 2320,
+      "neighbor_ids": [
+        4854,
+        4848,
+        4856,
+        5925,
+        4325
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 1572,
+      "neighbor_ids": [
+        1554,
+        1523,
+        1496,
+        1575,
+        1506
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1500,
+      "neighbor_ids": [
+        1543,
+        1562,
+        1513,
+        1558,
+        1537
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1565,
+      "neighbor_ids": [
+        1562,
+        1543,
+        1507,
+        1529,
+        1575
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1570,
+      "neighbor_ids": [
+        1527,
+        1513,
+        1553,
+        1543,
+        1558
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1510,
+      "neighbor_ids": [
+        1508,
+        1545,
+        1518,
+        1532,
+        1556
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7137,
+      "neighbor_ids": [
+        8180,
+        8153,
+        7152,
+        8151,
+        4197
+      ],
+      "relevant": [
+        false,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 7134,
+      "neighbor_ids": [
+        7149,
+        5946,
+        7151,
+        3613,
+        7584
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 7147,
+      "neighbor_ids": [
+        7138,
+        7151,
+        7145,
+        7141,
+        7144
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7149,
+      "neighbor_ids": [
+        7148,
+        6430,
+        7146,
+        2510,
+        7151
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 7136,
+      "neighbor_ids": [
+        7152,
+        7144,
+        7145,
+        7150,
+        7126
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1131,
+      "neighbor_ids": [
+        1134,
+        1132,
+        1085,
+        991,
+        1138
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 947,
+      "neighbor_ids": [
+        966,
+        978,
+        1001,
+        1007,
+        1036
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1128,
+      "neighbor_ids": [
+        1123,
+        1071,
+        1060,
+        1124,
+        1064
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1018,
+      "neighbor_ids": [
+        1016,
+        1009,
+        1032,
+        992,
+        1017
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 996,
+      "neighbor_ids": [
+        1020,
+        1005,
+        990,
+        1027,
+        1002
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5004,
+      "neighbor_ids": [
+        4964,
+        4962,
+        4986,
+        4969,
+        4961
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4964,
+      "neighbor_ids": [
+        5004,
+        5014,
+        4958,
+        4983,
+        5013
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5001,
+      "neighbor_ids": [
+        4982,
+        4987,
+        4992,
+        4959,
+        5000
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4961,
+      "neighbor_ids": [
+        4963,
+        4969,
+        4986,
+        4960,
+        4996
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5009,
+      "neighbor_ids": [
+        5006,
+        5003,
+        4975,
+        4991,
+        4993
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4694,
+      "neighbor_ids": [
+        4668,
+        4646,
+        4649,
+        4631,
+        4655
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4627,
+      "neighbor_ids": [
+        4683,
+        4639,
+        4631,
+        4629,
+        4628
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4643,
+      "neighbor_ids": [
+        3225,
+        4632,
+        4634,
+        3200,
+        3227
+      ],
+      "relevant": [
+        false,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 4637,
+      "neighbor_ids": [
+        4638,
+        4628,
+        4635,
+        4634,
+        4645
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4645,
+      "neighbor_ids": [
+        4639,
+        4640,
+        4628,
+        4642,
+        4624
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6216,
+      "neighbor_ids": [
+        6214,
+        6217,
+        6206,
+        6200,
+        6238
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6203,
+      "neighbor_ids": [
+        6206,
+        6210,
+        6244,
+        6229,
+        6204
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6241,
+      "neighbor_ids": [
+        6236,
+        6202,
+        6212,
+        6233,
+        6223
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6197,
+      "neighbor_ids": [
+        6245,
+        6225,
+        6202,
+        6228,
+        6205
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6219,
+      "neighbor_ids": [
+        6235,
+        6211,
+        6221,
+        6217,
+        6220
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6297,
+      "neighbor_ids": [
+        6531,
+        6543,
+        6533,
+        6538,
+        6550
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6538,
+      "neighbor_ids": [
+        6533,
+        6531,
+        6549,
+        6306,
+        6297
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6323,
+      "neighbor_ids": [
+        6314,
+        6317,
+        6343,
+        6322,
+        6319
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6307,
+      "neighbor_ids": [
+        6301,
+        6305,
+        6332,
+        6313,
+        6300
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6565,
+      "neighbor_ids": [
+        6536,
+        6539,
+        6547,
+        6531,
+        6548
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8104,
+      "neighbor_ids": [
+        8105,
+        7174,
+        7192,
+        7171,
+        7189
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7178,
+      "neighbor_ids": [
+        7161,
+        7172,
+        7180,
+        7187,
+        7195
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7197,
+      "neighbor_ids": [
+        7173,
+        7161,
+        7168,
+        7189,
+        7180
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7169,
+      "neighbor_ids": [
+        7182,
+        7161,
+        8021,
+        7178,
+        7183
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7184,
+      "neighbor_ids": [
+        4473,
+        986,
+        4458,
+        8105,
+        8030
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 1344,
+      "neighbor_ids": [
+        1342,
+        1343,
+        1327,
+        1328,
+        1340
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1424,
+      "neighbor_ids": [
+        1426,
+        1388,
+        1389,
+        1441,
+        1398
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1346,
+      "neighbor_ids": [
+        1347,
+        1369,
+        1331,
+        1338,
+        709
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 3944,
+      "neighbor_ids": [
+        2863,
+        2902,
+        2899,
+        2888,
+        2916
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 1459,
+      "neighbor_ids": [
+        1444,
+        1484,
+        1422,
+        1441,
+        1388
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4198,
+      "neighbor_ids": [
+        4209,
+        4175,
+        4178,
+        4163,
+        4192
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4182,
+      "neighbor_ids": [
+        4174,
+        4160,
+        4169,
+        4181,
+        4162
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4214,
+      "neighbor_ids": [
+        4232,
+        4209,
+        4235,
+        4229,
+        4236
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4200,
+      "neighbor_ids": [
+        4199,
+        4206,
+        4224,
+        4194,
+        4192
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4168,
+      "neighbor_ids": [
+        4166,
+        4172,
+        4242,
+        4173,
+        4162
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3642,
+      "neighbor_ids": [
+        3677,
+        3648,
+        3654,
+        3641,
+        3647
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3695,
+      "neighbor_ids": [
+        3712,
+        3670,
+        3671,
+        3691,
+        3710
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3723,
+      "neighbor_ids": [
+        3680,
+        3732,
+        3727,
+        3685,
+        3690
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3725,
+      "neighbor_ids": [
+        3722,
+        3653,
+        3721,
+        3689,
+        3678
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3685,
+      "neighbor_ids": [
+        3683,
+        3682,
+        3712,
+        7267,
+        3720
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 5406,
+      "neighbor_ids": [
+        5422,
+        5434,
+        5408,
+        5418,
+        5431
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5439,
+      "neighbor_ids": [
+        5415,
+        5419,
+        5432,
+        5414,
+        5430
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5423,
+      "neighbor_ids": [
+        5409,
+        5445,
+        5417,
+        5419,
+        5433
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5442,
+      "neighbor_ids": [
+        5447,
+        5429,
+        5402,
+        5443,
+        5424
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5404,
+      "neighbor_ids": [
+        5402,
+        5403,
+        5398,
+        5401,
+        5400
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4707,
+      "neighbor_ids": [
+        4751,
+        4704,
+        4741,
+        4753,
+        4696
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4758,
+      "neighbor_ids": [
+        4737,
+        4738,
+        4724,
+        4736,
+        4734
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4751,
+      "neighbor_ids": [
+        4707,
+        4741,
+        4696,
+        4763,
+        4704
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4725,
+      "neighbor_ids": [
+        4733,
+        4732,
+        4720,
+        4758,
+        4722
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4745,
+      "neighbor_ids": [
+        4750,
+        4765,
+        4741,
+        4696,
+        4733
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2763,
+      "neighbor_ids": [
+        2780,
+        2800,
+        2766,
+        2760,
+        2765
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2753,
+      "neighbor_ids": [
+        2756,
+        2752,
+        2758,
+        2755,
+        2767
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2842,
+      "neighbor_ids": [
+        2821,
+        2839,
+        2835,
+        2853,
+        2807
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2783,
+      "neighbor_ids": [
+        2761,
+        2759,
+        2762,
+        2752,
+        2767
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2822,
+      "neighbor_ids": [
+        2794,
+        2837,
+        2847,
+        2798,
+        2854
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8132,
+      "neighbor_ids": [
+        8121,
+        8146,
+        8144,
+        7288,
+        8133
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 7254,
+      "neighbor_ids": [
+        7262,
+        7243,
+        7239,
+        7266,
+        7245
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7266,
+      "neighbor_ids": [
+        7239,
+        7262,
+        7265,
+        7261,
+        7263
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8122,
+      "neighbor_ids": [
+        7233,
+        3759,
+        8121,
+        8019,
+        7256
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 8145,
+      "neighbor_ids": [
+        8141,
+        8144,
+        7262,
+        8120,
+        8140
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2686,
+      "neighbor_ids": [
+        2667,
+        2639,
+        2651,
+        2681,
+        2691
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2651,
+      "neighbor_ids": [
+        2720,
+        2667,
+        2721,
+        2681,
+        2659
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2742,
+      "neighbor_ids": [
+        2741,
+        2740,
+        2748,
+        2749,
+        2735
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2679,
+      "neighbor_ids": [
+        2707,
+        2688,
+        2660,
+        2670,
+        2674
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2683,
+      "neighbor_ids": [
+        2638,
+        2687,
+        2682,
+        2684,
+        2692
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5036,
+      "neighbor_ids": [
+        5049,
+        5034,
+        5047,
+        5046,
+        5020
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5037,
+      "neighbor_ids": [
+        5078,
+        5072,
+        5035,
+        5025,
+        5056
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5053,
+      "neighbor_ids": [
+        5046,
+        5031,
+        5051,
+        5057,
+        5044
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5035,
+      "neighbor_ids": [
+        5080,
+        5073,
+        5027,
+        5019,
+        5064
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5048,
+      "neighbor_ids": [
+        5053,
+        5030,
+        5045,
+        5057,
+        5025
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3014,
+      "neighbor_ids": [
+        3009,
+        3004,
+        3007,
+        3010,
+        2935
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3004,
+      "neighbor_ids": [
+        3009,
+        3010,
+        3005,
+        2964,
+        3013
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3020,
+      "neighbor_ids": [
+        3018,
+        2970,
+        3017,
+        3021,
+        2976
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2926,
+      "neighbor_ids": [
+        2924,
+        2930,
+        2948,
+        3006,
+        2920
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2930,
+      "neighbor_ids": [
+        3013,
+        2964,
+        2921,
+        2923,
+        2978
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8100,
+      "neighbor_ids": [
+        7232,
+        8102,
+        8101,
+        7224,
+        7219
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7229,
+      "neighbor_ids": [
+        7222,
+        7228,
+        7220,
+        7219,
+        7227
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7211,
+      "neighbor_ids": [
+        7214,
+        7219,
+        7222,
+        7208,
+        7212
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8102,
+      "neighbor_ids": [
+        7219,
+        8103,
+        7223,
+        7232,
+        8099
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7205,
+      "neighbor_ids": [
+        7226,
+        7222,
+        7219,
+        851,
+        7208
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 6295,
+      "neighbor_ids": [
+        6289,
+        6265,
+        6268,
+        6255,
+        6263
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6274,
+      "neighbor_ids": [
+        6263,
+        6295,
+        6271,
+        6284,
+        6251
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6292,
+      "neighbor_ids": [
+        6255,
+        6247,
+        6265,
+        6291,
+        6267
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6253,
+      "neighbor_ids": [
+        6284,
+        6288,
+        6247,
+        6267,
+        6251
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6259,
+      "neighbor_ids": [
+        6260,
+        6258,
+        6252,
+        6281,
+        6267
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8179,
+      "neighbor_ids": [
+        6733,
+        4558,
+        8158,
+        6739,
+        8173
+      ],
+      "relevant": [
+        false,
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 7277,
+      "neighbor_ids": [
+        7280,
+        7281,
+        7267,
+        7269,
+        7273
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7276,
+      "neighbor_ids": [
+        7279,
+        7278,
+        7273,
+        7270,
+        7267
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7269,
+      "neighbor_ids": [
+        7267,
+        7280,
+        7270,
+        7275,
+        7272
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8170,
+      "neighbor_ids": [
+        8172,
+        6949,
+        7449,
+        8171,
+        7646
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 5882,
+      "neighbor_ids": [
+        5854,
+        5879,
+        5883,
+        5864,
+        5858
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5888,
+      "neighbor_ids": [
+        5872,
+        5868,
+        5876,
+        5875,
+        5855
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5891,
+      "neighbor_ids": [
+        5899,
+        5864,
+        5897,
+        5892,
+        5858
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5868,
+      "neighbor_ids": [
+        5855,
+        5888,
+        5871,
+        5876,
+        5852
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5865,
+      "neighbor_ids": [
+        5864,
+        5854,
+        5899,
+        5877,
+        5882
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6137,
+      "neighbor_ids": [
+        6138,
+        6140,
+        6142,
+        6126,
+        6098
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6122,
+      "neighbor_ids": [
+        6107,
+        6143,
+        6123,
+        6113,
+        6110
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6121,
+      "neighbor_ids": [
+        6115,
+        6107,
+        6125,
+        6124,
+        6143
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6098,
+      "neighbor_ids": [
+        6107,
+        6106,
+        6097,
+        6142,
+        6105
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6134,
+      "neighbor_ids": [
+        6104,
+        6140,
+        6136,
+        6102,
+        6135
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3223,
+      "neighbor_ids": [
+        3240,
+        3263,
+        3236,
+        3231,
+        3206
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3238,
+      "neighbor_ids": [
+        3239,
+        3213,
+        3206,
+        3244,
+        3280
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3276,
+      "neighbor_ids": [
+        3185,
+        3209,
+        3214,
+        3210,
+        3182
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3205,
+      "neighbor_ids": [
+        3244,
+        3213,
+        3202,
+        3222,
+        3263
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3244,
+      "neighbor_ids": [
+        3205,
+        3225,
+        3202,
+        3213,
+        3238
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5552,
+      "neighbor_ids": [
+        5549,
+        5574,
+        5554,
+        5546,
+        5573
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5580,
+      "neighbor_ids": [
+        5538,
+        5546,
+        5550,
+        5547,
+        5530
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5528,
+      "neighbor_ids": [
+        5549,
+        5530,
+        5582,
+        5560,
+        5542
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5574,
+      "neighbor_ids": [
+        5571,
+        5549,
+        5582,
+        5572,
+        5528
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5527,
+      "neighbor_ids": [
+        5530,
+        5533,
+        5560,
+        5532,
+        5564
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7048,
+      "neighbor_ids": [
+        7047,
+        7046,
+        7077,
+        7069,
+        7073
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7071,
+      "neighbor_ids": [
+        7045,
+        5709,
+        5692,
+        7048,
+        7079
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7080,
+      "neighbor_ids": [
+        7068,
+        7084,
+        7079,
+        7083,
+        7045
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7079,
+      "neighbor_ids": [
+        7046,
+        7066,
+        7061,
+        7063,
+        7050
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8078,
+      "neighbor_ids": [
+        8077,
+        7051,
+        4223,
+        6421,
+        2008
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 5918,
+      "neighbor_ids": [
+        5953,
+        5933,
+        5928,
+        5938,
+        5904
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5942,
+      "neighbor_ids": [
+        5919,
+        5937,
+        5915,
+        5953,
+        5908
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5935,
+      "neighbor_ids": [
+        5914,
+        5924,
+        5947,
+        5916,
+        5948
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5932,
+      "neighbor_ids": [
+        5907,
+        5925,
+        5904,
+        5938,
+        5923
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5943,
+      "neighbor_ids": [
+        5911,
+        5924,
+        6383,
+        5947,
+        5935
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5998,
+      "neighbor_ids": [
+        5983,
+        6005,
+        5959,
+        5995,
+        5975
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5962,
+      "neighbor_ids": [
+        5956,
+        5972,
+        5959,
+        5957,
+        5970
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5983,
+      "neighbor_ids": [
+        5988,
+        6009,
+        5964,
+        5990,
+        5969
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5973,
+      "neighbor_ids": [
+        5974,
+        6008,
+        5966,
+        5969,
+        5977
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6009,
+      "neighbor_ids": [
+        5983,
+        5971,
+        5988,
+        5959,
+        5985
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5292,
+      "neighbor_ids": [
+        5293,
+        5317,
+        5282,
+        5306,
+        5315
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5318,
+      "neighbor_ids": [
+        5332,
+        5285,
+        5327,
+        5338,
+        5286
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5316,
+      "neighbor_ids": [
+        5281,
+        5317,
+        5315,
+        5296,
+        5292
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5322,
+      "neighbor_ids": [
+        5308,
+        5334,
+        5288,
+        5310,
+        5306
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5299,
+      "neighbor_ids": [
+        5315,
+        5277,
+        5317,
+        5320,
+        5281
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3317,
+      "neighbor_ids": [
+        3354,
+        7860,
+        3340,
+        3347,
+        3353
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3321,
+      "neighbor_ids": [
+        3335,
+        3307,
+        3294,
+        3287,
+        3353
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3333,
+      "neighbor_ids": [
+        3361,
+        3353,
+        3311,
+        3364,
+        3367
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3302,
+      "neighbor_ids": [
+        3353,
+        3335,
+        3354,
+        3294,
+        3361
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3296,
+      "neighbor_ids": [
+        3287,
+        3335,
+        3361,
+        3294,
+        3322
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4512,
+      "neighbor_ids": [
+        4550,
+        4546,
+        4494,
+        4527,
+        4554
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4504,
+      "neighbor_ids": [
+        4503,
+        4532,
+        4494,
+        4556,
+        4487
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4494,
+      "neighbor_ids": [
+        4550,
+        4546,
+        4506,
+        4485,
+        4512
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4534,
+      "neighbor_ids": [
+        4486,
+        4483,
+        4512,
+        4527,
+        4546
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4509,
+      "neighbor_ids": [
+        4524,
+        4540,
+        4550,
+        4549,
+        4546
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3631,
+      "neighbor_ids": [
+        3639,
+        3616,
+        3584,
+        3581,
+        3574
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3630,
+      "neighbor_ids": [
+        3561,
+        3582,
+        3568,
+        3595,
+        3547
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3590,
+      "neighbor_ids": [
+        3595,
+        3594,
+        3554,
+        3548,
+        3598
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3606,
+      "neighbor_ids": [
+        3595,
+        3548,
+        3632,
+        3603,
+        3590
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3625,
+      "neighbor_ids": [
+        3632,
+        3595,
+        1377,
+        3590,
+        3573
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 433,
+      "neighbor_ids": [
+        311,
+        320,
+        252,
+        443,
+        372
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 376,
+      "neighbor_ids": [
+        285,
+        278,
+        385,
+        372,
+        273
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 413,
+      "neighbor_ids": [
+        320,
+        273,
+        285,
+        252,
+        433
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 344,
+      "neighbor_ids": [
+        287,
+        358,
+        422,
+        370,
+        384
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 290,
+      "neighbor_ids": [
+        373,
+        274,
+        307,
+        361,
+        372
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1172,
+      "neighbor_ids": [
+        1196,
+        1148,
+        1231,
+        1144,
+        1260
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1190,
+      "neighbor_ids": [
+        1233,
+        1261,
+        1240,
+        1218,
+        1292
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1154,
+      "neighbor_ids": [
+        1163,
+        1285,
+        1174,
+        1242,
+        1254
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1267,
+      "neighbor_ids": [
+        1169,
+        1192,
+        1240,
+        1196,
+        1155
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1247,
+      "neighbor_ids": [
+        1234,
+        1214,
+        1241,
+        1297,
+        1245
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2182,
+      "neighbor_ids": [
+        2077,
+        2176,
+        2103,
+        2149,
+        2151
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2168,
+      "neighbor_ids": [
+        2096,
+        1463,
+        1367,
+        2119,
+        2071
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2126,
+      "neighbor_ids": [
+        2139,
+        2151,
+        2068,
+        2156,
+        2084
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2176,
+      "neighbor_ids": [
+        2144,
+        2084,
+        2160,
+        2139,
+        2088
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2083,
+      "neighbor_ids": [
+        2068,
+        2187,
+        2156,
+        2112,
+        2151
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2545,
+      "neighbor_ids": [
+        2085,
+        2145,
+        2179,
+        2183,
+        2184
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 2505,
+      "neighbor_ids": [
+        2495,
+        2516,
+        2477,
+        2453,
+        2457
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2453,
+      "neighbor_ids": [
+        2451,
+        2514,
+        2516,
+        2478,
+        2496
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2519,
+      "neighbor_ids": [
+        2533,
+        2535,
+        2507,
+        2453,
+        6642
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 2500,
+      "neighbor_ids": [
+        2521,
+        2531,
+        2542,
+        2520,
+        2472
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 41,
+      "neighbor_ids": [
+        217,
+        214,
+        159,
+        59,
+        164
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 198,
+      "neighbor_ids": [
+        92,
+        23,
+        176,
+        71,
+        70
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 101,
+      "neighbor_ids": [
+        126,
+        70,
+        205,
+        235,
+        33
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 111,
+      "neighbor_ids": [
+        121,
+        1,
+        4,
+        176,
+        52
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 148,
+      "neighbor_ids": [
+        195,
+        117,
+        177,
+        233,
+        194
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1924,
+      "neighbor_ids": [
+        1841,
+        1926,
+        1855,
+        1842,
+        1848
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1860,
+      "neighbor_ids": [
+        1957,
+        1864,
+        1870,
+        1862,
+        1903
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1838,
+      "neighbor_ids": [
+        1840,
+        1842,
+        1926,
+        1901,
+        1849
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1906,
+      "neighbor_ids": [
+        1839,
+        1958,
+        1928,
+        1940,
+        1857
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1951,
+      "neighbor_ids": [
+        1884,
+        1840,
+        370,
+        1926,
+        1960
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6698,
+      "neighbor_ids": [
+        6715,
+        6726,
+        6702,
+        6728,
+        6718
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6692,
+      "neighbor_ids": [
+        6728,
+        6703,
+        6713,
+        6721,
+        6724
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6714,
+      "neighbor_ids": [
+        6715,
+        6719,
+        6726,
+        6702,
+        6698
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6729,
+      "neighbor_ids": [
+        6702,
+        6726,
+        6713,
+        6703,
+        6706
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6697,
+      "neighbor_ids": [
+        6711,
+        6718,
+        6716,
+        6715,
+        6695
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2046,
+      "neighbor_ids": [
+        2041,
+        1991,
+        2029,
+        1970,
+        1987
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2058,
+      "neighbor_ids": [
+        2026,
+        2024,
+        2048,
+        2033,
+        1968
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2015,
+      "neighbor_ids": [
+        1992,
+        2028,
+        2010,
+        1977,
+        2029
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2037,
+      "neighbor_ids": [
+        2030,
+        1991,
+        2046,
+        1965,
+        1976
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2041,
+      "neighbor_ids": [
+        2046,
+        2040,
+        1970,
+        2062,
+        1981
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6434,
+      "neighbor_ids": [
+        6414,
+        7416,
+        6411,
+        6432,
+        7338
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 6438,
+      "neighbor_ids": [
+        6437,
+        6419,
+        6417,
+        6418,
+        6432
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6430,
+      "neighbor_ids": [
+        6425,
+        6431,
+        6433,
+        7149,
+        1674
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 6431,
+      "neighbor_ids": [
+        6432,
+        6433,
+        6421,
+        6430,
+        6397
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6399,
+      "neighbor_ids": [
+        6439,
+        6403,
+        6430,
+        6431,
+        6396
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 908,
+      "neighbor_ids": [
+        785,
+        799,
+        884,
+        909,
+        886
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 886,
+      "neighbor_ids": [
+        837,
+        873,
+        935,
+        909,
+        870
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 932,
+      "neighbor_ids": [
+        797,
+        877,
+        899,
+        817,
+        880
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 848,
+      "neighbor_ids": [
+        825,
+        805,
+        941,
+        792,
+        903
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 898,
+      "neighbor_ids": [
+        832,
+        941,
+        888,
+        782,
+        807
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1662,
+      "neighbor_ids": [
+        1648,
+        1630,
+        1639,
+        1586,
+        2615
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 1672,
+      "neighbor_ids": [
+        1623,
+        1639,
+        1608,
+        1629,
+        1694
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1654,
+      "neighbor_ids": [
+        1665,
+        1627,
+        1669,
+        1610,
+        1681
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1667,
+      "neighbor_ids": [
+        1607,
+        1660,
+        1608,
+        1683,
+        1588
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1680,
+      "neighbor_ids": [
+        154,
+        1585,
+        1594,
+        1591,
+        1627
+      ],
+      "relevant": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1715,
+      "neighbor_ids": [
+        1758,
+        1718,
+        1749,
+        1761,
+        1776
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1714,
+      "neighbor_ids": [
+        1700,
+        1794,
+        1764,
+        1801,
+        1822
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1735,
+      "neighbor_ids": [
+        1761,
+        1790,
+        1715,
+        1755,
+        1758
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 1819,
+      "neighbor_ids": [
+        1817,
+        1771,
+        1824,
+        7769,
+        1811
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 1734,
+      "neighbor_ids": [
+        4297,
+        4267,
+        4274,
+        2185,
+        4879
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 2583,
+      "neighbor_ids": [
+        2559,
+        2623,
+        2620,
+        2613,
+        2627
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2612,
+      "neighbor_ids": [
+        2628,
+        2598,
+        3582,
+        3751,
+        2589
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 2567,
+      "neighbor_ids": [
+        2598,
+        2606,
+        2576,
+        2629,
+        2595
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2614,
+      "neighbor_ids": [
+        1586,
+        4259,
+        4262,
+        4311,
+        2592
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 2562,
+      "neighbor_ids": [
+        2592,
+        2599,
+        2607,
+        2613,
+        2558
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4795,
+      "neighbor_ids": [
+        7974,
+        4811,
+        7947,
+        1703,
+        1744
+      ],
+      "relevant": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 4802,
+      "neighbor_ids": [
+        4815,
+        4811,
+        4804,
+        4796,
+        4787
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4812,
+      "neighbor_ids": [
+        2438,
+        4818,
+        4786,
+        7788,
+        3496
+      ],
+      "relevant": [
+        false,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 4789,
+      "neighbor_ids": [
+        4774,
+        3170,
+        4776,
+        4777,
+        3496
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 4774,
+      "neighbor_ids": [
+        4776,
+        4789,
+        7300,
+        4827,
+        4799
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2884,
+      "neighbor_ids": [
+        2902,
+        2869,
+        3944,
+        2882,
+        2878
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2906,
+      "neighbor_ids": [
+        1335,
+        2875,
+        1376,
+        1327,
+        3947
+      ],
+      "relevant": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 2913,
+      "neighbor_ids": [
+        2868,
+        2871,
+        2910,
+        2909,
+        2902
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2867,
+      "neighbor_ids": [
+        2888,
+        2870,
+        2878,
+        2881,
+        2876
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 2876,
+      "neighbor_ids": [
+        2892,
+        2888,
+        2865,
+        2867,
+        3944
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 5487,
+      "neighbor_ids": [
+        5510,
+        5468,
+        5701,
+        5486,
+        5506
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5502,
+      "neighbor_ids": [
+        5459,
+        5475,
+        5496,
+        5464,
+        5507
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5461,
+      "neighbor_ids": [
+        5493,
+        5518,
+        5472,
+        5474,
+        5517
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5466,
+      "neighbor_ids": [
+        5497,
+        5521,
+        5470,
+        5460,
+        5463
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 5494,
+      "neighbor_ids": [
+        5479,
+        5484,
+        5521,
+        5463,
+        5505
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 594,
+      "neighbor_ids": [
+        564,
+        586,
+        450,
+        448,
+        466
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 553,
+      "neighbor_ids": [
+        509,
+        579,
+        4774,
+        1993,
+        575
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 490,
+      "neighbor_ids": [
+        571,
+        551,
+        541,
+        495,
+        562
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 569,
+      "neighbor_ids": [
+        503,
+        547,
+        481,
+        558,
+        591
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 510,
+      "neighbor_ids": [
+        480,
+        539,
+        493,
+        527,
+        540
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 732,
+      "neighbor_ids": [
+        637,
+        696,
+        626,
+        742,
+        672
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 740,
+      "neighbor_ids": [
+        762,
+        751,
+        775,
+        779,
+        729
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 690,
+      "neighbor_ids": [
+        724,
+        684,
+        689,
+        760,
+        702
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 651,
+      "neighbor_ids": [
+        749,
+        607,
+        747,
+        711,
+        714
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 764,
+      "neighbor_ids": [
+        724,
+        690,
+        684,
+        750,
+        674
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4454,
+      "neighbor_ids": [
+        6799,
+        6795,
+        4413,
+        4441,
+        7958
+      ],
+      "relevant": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 4469,
+      "neighbor_ids": [
+        4415,
+        4404,
+        2395,
+        4475,
+        4435
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4422,
+      "neighbor_ids": [
+        4456,
+        4426,
+        4437,
+        1825,
+        4445
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 4403,
+      "neighbor_ids": [
+        4467,
+        4476,
+        4458,
+        7974,
+        4471
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 4463,
+      "neighbor_ids": [
+        4411,
+        4418,
+        4467,
+        7958,
+        4446
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 7114,
+      "neighbor_ids": [
+        7106,
+        7108,
+        7085,
+        7087,
+        8089
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7086,
+      "neighbor_ids": [
+        7097,
+        7115,
+        7088,
+        7103,
+        7101
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7113,
+      "neighbor_ids": [
+        7107,
+        7109,
+        8089,
+        7116,
+        7085
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8092,
+      "neighbor_ids": [
+        8089,
+        7085,
+        7101,
+        7116,
+        7098
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7091,
+      "neighbor_ids": [
+        7089,
+        7092,
+        7106,
+        7085,
+        8090
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4862,
+      "neighbor_ids": [
+        4832,
+        4894,
+        4869,
+        4848,
+        4891
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4830,
+      "neighbor_ids": [
+        4840,
+        4851,
+        4880,
+        4883,
+        4838
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4846,
+      "neighbor_ids": [
+        4839,
+        4858,
+        8053,
+        4867,
+        4842
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8059,
+      "neighbor_ids": [
+        8056,
+        8055,
+        8053,
+        8054,
+        8060
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 4890,
+      "neighbor_ids": [
+        4855,
+        8056,
+        4844,
+        4877,
+        8059
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3028,
+      "neighbor_ids": [
+        3088,
+        3082,
+        3046,
+        3051,
+        3035
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3086,
+      "neighbor_ids": [
+        3093,
+        3083,
+        3084,
+        6050,
+        4080
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 3046,
+      "neighbor_ids": [
+        3059,
+        3042,
+        3034,
+        3082,
+        3080
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3040,
+      "neighbor_ids": [
+        3062,
+        3059,
+        3075,
+        3080,
+        3051
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 3071,
+      "neighbor_ids": [
+        3042,
+        3034,
+        3050,
+        3078,
+        3080
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6012,
+      "neighbor_ids": [
+        6038,
+        6020,
+        6036,
+        7834,
+        6016
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 6046,
+      "neighbor_ids": [
+        6020,
+        8111,
+        8114,
+        6038,
+        6041
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6016,
+      "neighbor_ids": [
+        6015,
+        6036,
+        6021,
+        6038,
+        6012
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 6037,
+      "neighbor_ids": [
+        6041,
+        5657,
+        6046,
+        6019,
+        4834
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 8116,
+      "neighbor_ids": [
+        6021,
+        8115,
+        6033,
+        8047,
+        7838
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 7312,
+      "neighbor_ids": [
+        5584,
+        5588,
+        5613,
+        7310,
+        7371
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7341,
+      "neighbor_ids": [
+        7441,
+        7381,
+        7384,
+        7395,
+        7461
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7437,
+      "neighbor_ids": [
+        7402,
+        7340,
+        7332,
+        7443,
+        7370
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7410,
+      "neighbor_ids": [
+        7406,
+        7329,
+        7360,
+        7350,
+        7412
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7432,
+      "neighbor_ids": [
+        7306,
+        7308,
+        7405,
+        7415,
+        7454
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7571,
+      "neighbor_ids": [
+        7549,
+        7478,
+        7586,
+        7569,
+        2186
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 7568,
+      "neighbor_ids": [
+        7542,
+        7556,
+        7518,
+        7498,
+        7529
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7522,
+      "neighbor_ids": [
+        7480,
+        7465,
+        7566,
+        7591,
+        7554
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7552,
+      "neighbor_ids": [
+        7564,
+        7558,
+        7544,
+        7566,
+        7591
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7569,
+      "neighbor_ids": [
+        7478,
+        7477,
+        7571,
+        7549,
+        7586
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7641,
+      "neighbor_ids": [
+        7597,
+        7600,
+        7651,
+        6908,
+        7659
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 7654,
+      "neighbor_ids": [
+        7651,
+        7622,
+        7623,
+        7598,
+        7608
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7603,
+      "neighbor_ids": [
+        7568,
+        4860,
+        7596,
+        7666,
+        7697
+      ],
+      "relevant": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 7660,
+      "neighbor_ids": [
+        7614,
+        7624,
+        7631,
+        7634,
+        7621
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7637,
+      "neighbor_ids": [
+        1160,
+        7599,
+        7632,
+        7607,
+        1272
+      ],
+      "relevant": [
+        false,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 7693,
+      "neighbor_ids": [
+        7720,
+        1815,
+        669,
+        7704,
+        7692
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7736,
+      "neighbor_ids": [
+        7700,
+        7739,
+        8169,
+        7735,
+        8173
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 7731,
+      "neighbor_ids": [
+        7712,
+        7738,
+        7737,
+        7715,
+        7677
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 7687,
+      "neighbor_ids": [
+        7739,
+        4584,
+        7720,
+        7677,
+        7745
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 7711,
+      "neighbor_ids": [
+        1975,
+        1966,
+        7949,
+        7712,
+        7731
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7800,
+      "neighbor_ids": [
+        7767,
+        7817,
+        7781,
+        7756,
+        7771
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7791,
+      "neighbor_ids": [
+        7795,
+        7796,
+        7777,
+        6642,
+        7781
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 7810,
+      "neighbor_ids": [
+        7776,
+        7779,
+        7787,
+        7761,
+        7753
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7805,
+      "neighbor_ids": [
+        7782,
+        7765,
+        7818,
+        6182,
+        3954
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 7828,
+      "neighbor_ids": [
+        7781,
+        7825,
+        7763,
+        7776,
+        7813
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7860,
+      "neighbor_ids": [
+        7859,
+        7846,
+        7877,
+        3317,
+        3340
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 7845,
+      "neighbor_ids": [
+        7837,
+        7871,
+        7842,
+        7866,
+        8063
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7832,
+      "neighbor_ids": [
+        7861,
+        7834,
+        7852,
+        7875,
+        7836
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7834,
+      "neighbor_ids": [
+        7861,
+        7832,
+        7875,
+        7866,
+        7871
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7886,
+      "neighbor_ids": [
+        7870,
+        7871,
+        7873,
+        8062,
+        7874
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7896,
+      "neighbor_ids": [
+        7912,
+        7899,
+        7906,
+        7894,
+        7916
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7940,
+      "neighbor_ids": [
+        7914,
+        7939,
+        7918,
+        7899,
+        7927
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7910,
+      "neighbor_ids": [
+        7900,
+        7893,
+        7912,
+        7896,
+        7894
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7927,
+      "neighbor_ids": [
+        7930,
+        7914,
+        7912,
+        7923,
+        7940
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 7900,
+      "neighbor_ids": [
+        7935,
+        7899,
+        7908,
+        7898,
+        7914
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8301,
+      "neighbor_ids": [
+        8442,
+        9495,
+        8436,
+        8467,
+        8431
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 8313,
+      "neighbor_ids": [
+        8709,
+        9331,
+        9432,
+        10504,
+        9044
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 8360,
+      "neighbor_ids": [
+        8358,
+        9534,
+        8207,
+        8321,
+        8274
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8277,
+      "neighbor_ids": [
+        8385,
+        8193,
+        8216,
+        9329,
+        8199
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 8238,
+      "neighbor_ids": [
+        8228,
+        8366,
+        8229,
+        8345,
+        8358
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 10619,
+      "neighbor_ids": [
+        10621,
+        11454,
+        10629,
+        11452,
+        11457
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 10666,
+      "neighbor_ids": [
+        10673,
+        10675,
+        10661,
+        10653,
+        10652
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 10699,
+      "neighbor_ids": [
+        10730,
+        10711,
+        11410,
+        10662,
+        11486
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 10674,
+      "neighbor_ids": [
+        10679,
+        10574,
+        10742,
+        10689,
+        10680
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 10642,
+      "neighbor_ids": [
+        11416,
+        10641,
+        10566,
+        14314,
+        11534
+      ],
+      "relevant": [
+        false,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 11697,
+      "neighbor_ids": [
+        11701,
+        14095,
+        11741,
+        13364,
+        11698
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 11589,
+      "neighbor_ids": [
+        11623,
+        11668,
+        11665,
+        11620,
+        11632
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 11588,
+      "neighbor_ids": [
+        11622,
+        11601,
+        11592,
+        11652,
+        11688
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 11660,
+      "neighbor_ids": [
+        11641,
+        11630,
+        11604,
+        11563,
+        11616
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 11650,
+      "neighbor_ids": [
+        13846,
+        11454,
+        11668,
+        11671,
+        11455
+      ],
+      "relevant": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 9196,
+      "neighbor_ids": [
+        9305,
+        10009,
+        9826,
+        9333,
+        10006
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 9223,
+      "neighbor_ids": [
+        10075,
+        9190,
+        9192,
+        9210,
+        9198
+      ],
+      "relevant": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9350,
+      "neighbor_ids": [
+        9198,
+        9224,
+        8324,
+        9332,
+        9301
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9353,
+      "neighbor_ids": [
+        9239,
+        9296,
+        10148,
+        10147,
+        9192
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 9193,
+      "neighbor_ids": [
+        9179,
+        9202,
+        9336,
+        9322,
+        9312
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 11882,
+      "neighbor_ids": [
+        11874,
+        11881,
+        11880,
+        11871,
+        11937
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 11949,
+      "neighbor_ids": [
+        11767,
+        11907,
+        12052,
+        12018,
+        14166
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 11876,
+      "neighbor_ids": [
+        11877,
+        11830,
+        11950,
+        11759,
+        11870
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 11909,
+      "neighbor_ids": [
+        11907,
+        11899,
+        11898,
+        11908,
+        11851
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 11836,
+      "neighbor_ids": [
+        12708,
+        11937,
+        11840,
+        11792,
+        13627
+      ],
+      "relevant": [
+        false,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 12141,
+      "neighbor_ids": [
+        12139,
+        12059,
+        11908,
+        11928,
+        12087
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 12071,
+      "neighbor_ids": [
+        12072,
+        11996,
+        12003,
+        12022,
+        12107
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 12074,
+      "neighbor_ids": [
+        12022,
+        11937,
+        12107,
+        11990,
+        12073
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 11997,
+      "neighbor_ids": [
+        11759,
+        12835,
+        11782,
+        12106,
+        11805
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 12018,
+      "neighbor_ids": [
+        12081,
+        11949,
+        14208,
+        14199,
+        14347
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 12248,
+      "neighbor_ids": [
+        11966,
+        14615,
+        11811,
+        11879,
+        11418
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 12174,
+      "neighbor_ids": [
+        12175,
+        10709,
+        11648,
+        13003,
+        11969
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 12199,
+      "neighbor_ids": [
+        12330,
+        12195,
+        12349,
+        12092,
+        12219
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 12351,
+      "neighbor_ids": [
+        12162,
+        12330,
+        12292,
+        12333,
+        12186
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 12184,
+      "neighbor_ids": [
+        12214,
+        12313,
+        12210,
+        12215,
+        12226
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 12483,
+      "neighbor_ids": [
+        12513,
+        14501,
+        12447,
+        14856,
+        14423
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 12485,
+      "neighbor_ids": [
+        12369,
+        12484,
+        12536,
+        12494,
+        12479
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 12492,
+      "neighbor_ids": [
+        12486,
+        12454,
+        12465,
+        12487,
+        12521
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 12462,
+      "neighbor_ids": [
+        12380,
+        12467,
+        12379,
+        14390,
+        12443
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 12471,
+      "neighbor_ids": [
+        12486,
+        12521,
+        12510,
+        12483,
+        14383
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 12622,
+      "neighbor_ids": [
+        12688,
+        12674,
+        12722,
+        12567,
+        12744
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 12660,
+      "neighbor_ids": [
+        12752,
+        12658,
+        12582,
+        12680,
+        12579
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 12663,
+      "neighbor_ids": [
+        12561,
+        12692,
+        12718,
+        12656,
+        12719
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 12594,
+      "neighbor_ids": [
+        12579,
+        12693,
+        15438,
+        15412,
+        12703
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 12640,
+      "neighbor_ids": [
+        12664,
+        12662,
+        12619,
+        12593,
+        12707
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 12932,
+      "neighbor_ids": [
+        12860,
+        12863,
+        12830,
+        12561,
+        12773
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 12914,
+      "neighbor_ids": [
+        12915,
+        12806,
+        12824,
+        12825,
+        12812
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 12900,
+      "neighbor_ids": [
+        12911,
+        12799,
+        12903,
+        12878,
+        12781
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 12866,
+      "neighbor_ids": [
+        12755,
+        12896,
+        12856,
+        12857,
+        12784
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 12855,
+      "neighbor_ids": [
+        12915,
+        12840,
+        12867,
+        12762,
+        12863
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13003,
+      "neighbor_ids": [
+        13341,
+        13279,
+        13206,
+        13233,
+        13290
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 13098,
+      "neighbor_ids": [
+        13037,
+        13010,
+        12997,
+        13935,
+        13110
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 13113,
+      "neighbor_ids": [
+        13079,
+        13142,
+        13039,
+        13075,
+        13013
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13007,
+      "neighbor_ids": [
+        13251,
+        13154,
+        13242,
+        13078,
+        13044
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13056,
+      "neighbor_ids": [
+        13314,
+        13315,
+        13316,
+        14569,
+        14484
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 13162,
+      "neighbor_ids": [
+        13310,
+        13641,
+        13285,
+        13164,
+        12477
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 13250,
+      "neighbor_ids": [
+        13230,
+        13257,
+        13256,
+        13239,
+        13240
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13176,
+      "neighbor_ids": [
+        13328,
+        13280,
+        13329,
+        13164,
+        13154
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13165,
+      "neighbor_ids": [
+        13328,
+        13234,
+        13176,
+        13222,
+        13217
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13168,
+      "neighbor_ids": [
+        13238,
+        13274,
+        13170,
+        13272,
+        13269
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 10815,
+      "neighbor_ids": [
+        10795,
+        10774,
+        10823,
+        10797,
+        10864
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 10826,
+      "neighbor_ids": [
+        11455,
+        14997,
+        10807,
+        10931,
+        15007
+      ],
+      "relevant": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 10857,
+      "neighbor_ids": [
+        10851,
+        10958,
+        10923,
+        13477,
+        10950
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 10871,
+      "neighbor_ids": [
+        15102,
+        14954,
+        11436,
+        15022,
+        15019
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 10775,
+      "neighbor_ids": [
+        10797,
+        10774,
+        10855,
+        10852,
+        10844
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9363,
+      "neighbor_ids": [
+        9401,
+        9437,
+        9376,
+        9371,
+        9500
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9506,
+      "neighbor_ids": [
+        9485,
+        9433,
+        9427,
+        9389,
+        9521
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9538,
+      "neighbor_ids": [
+        9376,
+        9531,
+        9508,
+        9452,
+        9541
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9526,
+      "neighbor_ids": [
+        9525,
+        9499,
+        9477,
+        9465,
+        9423
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9447,
+      "neighbor_ids": [
+        9449,
+        9426,
+        9415,
+        9372,
+        8667
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 13487,
+      "neighbor_ids": [
+        13377,
+        13509,
+        13410,
+        13399,
+        13546
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13473,
+      "neighbor_ids": [
+        13426,
+        13467,
+        13522,
+        13418,
+        13512
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13384,
+      "neighbor_ids": [
+        11566,
+        10825,
+        10850,
+        10773,
+        13374
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 13401,
+      "neighbor_ids": [
+        13437,
+        13442,
+        13552,
+        13439,
+        10779
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 13492,
+      "neighbor_ids": [
+        11611,
+        11306,
+        12300,
+        10904,
+        10936
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 13738,
+      "neighbor_ids": [
+        12225,
+        14611,
+        13205,
+        12113,
+        13663
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 13641,
+      "neighbor_ids": [
+        13217,
+        12540,
+        13164,
+        13165,
+        13242
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 13705,
+      "neighbor_ids": [
+        13736,
+        13708,
+        13671,
+        13559,
+        13644
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13568,
+      "neighbor_ids": [
+        13612,
+        13156,
+        13678,
+        13747,
+        13676
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13747,
+      "neighbor_ids": [
+        13568,
+        13156,
+        13681,
+        13699,
+        13643
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9710,
+      "neighbor_ids": [
+        9638,
+        9597,
+        9694,
+        9705,
+        9750
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9746,
+      "neighbor_ids": [
+        9641,
+        9574,
+        9601,
+        9738,
+        8671
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 9589,
+      "neighbor_ids": [
+        9562,
+        9599,
+        9607,
+        9615,
+        9580
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9699,
+      "neighbor_ids": [
+        9726,
+        9630,
+        9748,
+        9657,
+        9864
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 9638,
+      "neighbor_ids": [
+        9732,
+        9643,
+        9597,
+        9738,
+        9750
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13782,
+      "neighbor_ids": [
+        13813,
+        13790,
+        13824,
+        13783,
+        13841
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13853,
+      "neighbor_ids": [
+        13790,
+        13782,
+        13824,
+        13813,
+        13841
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13899,
+      "neighbor_ids": [
+        13891,
+        13898,
+        13893,
+        13900,
+        13828
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13790,
+      "neighbor_ids": [
+        13782,
+        13813,
+        13801,
+        13783,
+        13844
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13842,
+      "neighbor_ids": [
+        13779,
+        13801,
+        13783,
+        13782,
+        13914
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14130,
+      "neighbor_ids": [
+        14104,
+        14087,
+        14084,
+        14140,
+        14079
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14144,
+      "neighbor_ids": [
+        14128,
+        14135,
+        14104,
+        13964,
+        13963
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14139,
+      "neighbor_ids": [
+        14071,
+        14055,
+        14101,
+        14130,
+        14128
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14060,
+      "neighbor_ids": [
+        14080,
+        13957,
+        14144,
+        13958,
+        14078
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 13990,
+      "neighbor_ids": [
+        13997,
+        14006,
+        14001,
+        14002,
+        14045
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9928,
+      "neighbor_ids": [
+        9932,
+        9803,
+        9874,
+        9846,
+        9934
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9839,
+      "neighbor_ids": [
+        9596,
+        9636,
+        9860,
+        9898,
+        9642
+      ],
+      "relevant": [
+        false,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 9849,
+      "neighbor_ids": [
+        9822,
+        9904,
+        9048,
+        8709,
+        9331
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 9788,
+      "neighbor_ids": [
+        9917,
+        9935,
+        9852,
+        9782,
+        9032
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 9860,
+      "neighbor_ids": [
+        9929,
+        9832,
+        9898,
+        9852,
+        9897
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 10054,
+      "neighbor_ids": [
+        10053,
+        10151,
+        8985,
+        9158,
+        10120
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 10055,
+      "neighbor_ids": [
+        10108,
+        9978,
+        10085,
+        10063,
+        10142
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 10144,
+      "neighbor_ids": [
+        10145,
+        9024,
+        10146,
+        9988,
+        9980
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 10046,
+      "neighbor_ids": [
+        10047,
+        9988,
+        10041,
+        10109,
+        10094
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9969,
+      "neighbor_ids": [
+        9970,
+        10068,
+        10124,
+        10140,
+        8930
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 14275,
+      "neighbor_ids": [
+        14306,
+        11341,
+        11163,
+        11358,
+        14252
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 14158,
+      "neighbor_ids": [
+        14208,
+        14347,
+        14341,
+        14166,
+        14160
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14196,
+      "neighbor_ids": [
+        14212,
+        12027,
+        14222,
+        12948,
+        14193
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 14335,
+      "neighbor_ids": [
+        14167,
+        14294,
+        14269,
+        14300,
+        14299
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14327,
+      "neighbor_ids": [
+        11554,
+        14297,
+        11431,
+        14328,
+        14269
+      ],
+      "relevant": [
+        false,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14493,
+      "neighbor_ids": [
+        14357,
+        14472,
+        14529,
+        14547,
+        14508
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14448,
+      "neighbor_ids": [
+        14454,
+        14449,
+        14455,
+        14459,
+        14457
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14352,
+      "neighbor_ids": [
+        14529,
+        14363,
+        14547,
+        14427,
+        14475
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14465,
+      "neighbor_ids": [
+        14387,
+        14404,
+        14466,
+        14484,
+        14477
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14545,
+      "neighbor_ids": [
+        14373,
+        14467,
+        14464,
+        14507,
+        14447
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 11125,
+      "neighbor_ids": [
+        10975,
+        11147,
+        11077,
+        11081,
+        11312
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 11128,
+      "neighbor_ids": [
+        11059,
+        11012,
+        11153,
+        11039,
+        10985
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 11070,
+      "neighbor_ids": [
+        11138,
+        11127,
+        11017,
+        11020,
+        11158
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 11089,
+      "neighbor_ids": [
+        11125,
+        10975,
+        11147,
+        11077,
+        15251
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 11086,
+      "neighbor_ids": [
+        11118,
+        11316,
+        11057,
+        11183,
+        11099
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 14669,
+      "neighbor_ids": [
+        14668,
+        14642,
+        14638,
+        14722,
+        12703
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 14697,
+      "neighbor_ids": [
+        14698,
+        14743,
+        14746,
+        14581,
+        14575
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14561,
+      "neighbor_ids": [
+        14741,
+        15490,
+        12613,
+        11449,
+        11726
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 14622,
+      "neighbor_ids": [
+        14652,
+        14620,
+        14698,
+        14627,
+        14697
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14692,
+      "neighbor_ids": [
+        14693,
+        14695,
+        14610,
+        14718,
+        14641
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14914,
+      "neighbor_ids": [
+        14879,
+        14774,
+        14775,
+        14895,
+        14834
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14844,
+      "neighbor_ids": [
+        14928,
+        14406,
+        14856,
+        14383,
+        14759
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 14814,
+      "neighbor_ids": [
+        14928,
+        14896,
+        14798,
+        14787,
+        14750
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14902,
+      "neighbor_ids": [
+        14921,
+        14768,
+        14774,
+        14820,
+        14818
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14854,
+      "neighbor_ids": [
+        14910,
+        14858,
+        14803,
+        14805,
+        14849
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 10245,
+      "neighbor_ids": [
+        10206,
+        10223,
+        10203,
+        10318,
+        10205
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 10221,
+      "neighbor_ids": [
+        10222,
+        8729,
+        10220,
+        10166,
+        9798
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 10277,
+      "neighbor_ids": [
+        8876,
+        10267,
+        8447,
+        10076,
+        10081
+      ],
+      "relevant": [
+        false,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 10339,
+      "neighbor_ids": [
+        10180,
+        10312,
+        10283,
+        10175,
+        10256
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 10184,
+      "neighbor_ids": [
+        10335,
+        9797,
+        9948,
+        8718,
+        10215
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 10380,
+      "neighbor_ids": [
+        10507,
+        10396,
+        10387,
+        10492,
+        10461
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 10462,
+      "neighbor_ids": [
+        10534,
+        10392,
+        10456,
+        10403,
+        10451
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 10465,
+      "neighbor_ids": [
+        8226,
+        10428,
+        10466,
+        10407,
+        10267
+      ],
+      "relevant": [
+        false,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 10527,
+      "neighbor_ids": [
+        10454,
+        10398,
+        10420,
+        10534,
+        10421
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 10457,
+      "neighbor_ids": [
+        10458,
+        10512,
+        10362,
+        10402,
+        10507
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14982,
+      "neighbor_ids": [
+        14984,
+        15128,
+        14994,
+        15059,
+        14958
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 15022,
+      "neighbor_ids": [
+        15019,
+        15015,
+        15017,
+        15021,
+        15102
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 15065,
+      "neighbor_ids": [
+        15131,
+        15119,
+        15044,
+        14996,
+        15008
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 14950,
+      "neighbor_ids": [
+        15002,
+        15067,
+        15129,
+        15099,
+        15136
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 15066,
+      "neighbor_ids": [
+        15110,
+        15105,
+        15096,
+        10590,
+        11533
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 15227,
+      "neighbor_ids": [
+        15216,
+        15194,
+        15255,
+        15275,
+        15161
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 15275,
+      "neighbor_ids": [
+        12641,
+        15278,
+        15328,
+        15171,
+        15300
+      ],
+      "relevant": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 15142,
+      "neighbor_ids": [
+        15334,
+        15251,
+        12697,
+        12534,
+        15152
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 15257,
+      "neighbor_ids": [
+        15262,
+        12712,
+        13164,
+        13220,
+        15203
+      ],
+      "relevant": [
+        true,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 15321,
+      "neighbor_ids": [
+        15315,
+        15143,
+        15146,
+        15247,
+        15287
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 15449,
+      "neighbor_ids": [
+        15461,
+        15482,
+        15480,
+        12746,
+        15409
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 15372,
+      "neighbor_ids": [
+        15412,
+        15493,
+        15478,
+        15518,
+        15349
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 15339,
+      "neighbor_ids": [
+        15479,
+        12644,
+        15478,
+        13917,
+        12711
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 15420,
+      "neighbor_ids": [
+        15421,
+        15419,
+        15424,
+        15428,
+        15431
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 15393,
+      "neighbor_ids": [
+        15356,
+        15391,
+        15386,
+        15401,
+        15388
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 11352,
+      "neighbor_ids": [
+        11513,
+        11143,
+        11144,
+        10963,
+        11292
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 11282,
+      "neighbor_ids": [
+        11284,
+        11328,
+        11117,
+        12067,
+        11142
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 11318,
+      "neighbor_ids": [
+        11090,
+        10998,
+        11333,
+        11326,
+        11269
+      ],
+      "relevant": [
+        false,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 11334,
+      "neighbor_ids": [
+        11017,
+        11350,
+        11299,
+        11040,
+        11253
+      ],
+      "relevant": [
+        false,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 11255,
+      "neighbor_ids": [
+        11287,
+        11313,
+        11316,
+        11306,
+        11305
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8511,
+      "neighbor_ids": [
+        10095,
+        8502,
+        8265,
+        8579,
+        8583
+      ],
+      "relevant": [
+        false,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8487,
+      "neighbor_ids": [
+        9474,
+        8928,
+        9485,
+        8909,
+        8478
+      ],
+      "relevant": [
+        false,
+        false,
+        false,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 8443,
+      "neighbor_ids": [
+        8454,
+        8432,
+        8389,
+        9418,
+        9541
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 8528,
+      "neighbor_ids": [
+        8510,
+        9241,
+        8409,
+        8525,
+        8445
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8578,
+      "neighbor_ids": [
+        8544,
+        8524,
+        8405,
+        9326,
+        8454
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 8609,
+      "neighbor_ids": [
+        8590,
+        8612,
+        9934,
+        8608,
+        8601
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8686,
+      "neighbor_ids": [
+        8764,
+        8633,
+        8681,
+        8774,
+        8601
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8675,
+      "neighbor_ids": [
+        8729,
+        8687,
+        8609,
+        8744,
+        8758
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8732,
+      "neighbor_ids": [
+        8614,
+        8632,
+        9925,
+        8640,
+        8731
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8748,
+      "neighbor_ids": [
+        9778,
+        9803,
+        8609,
+        8612,
+        8713
+      ],
+      "relevant": [
+        false,
+        false,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8862,
+      "neighbor_ids": [
+        8833,
+        8853,
+        8865,
+        8946,
+        8863
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8815,
+      "neighbor_ids": [
+        10081,
+        8936,
+        8886,
+        10091,
+        8920
+      ],
+      "relevant": [
+        false,
+        true,
+        true,
+        false,
+        true
+      ]
+    },
+    {
+      "query_id": 8806,
+      "neighbor_ids": [
+        8815,
+        8871,
+        8920,
+        8873,
+        8900
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 8967,
+      "neighbor_ids": [
+        8966,
+        8930,
+        8944,
+        8924,
+        10217
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 8962,
+      "neighbor_ids": [
+        8961,
+        10111,
+        8858,
+        10164,
+        10044
+      ],
+      "relevant": [
+        true,
+        false,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 11360,
+      "neighbor_ids": [
+        15122,
+        11376,
+        11506,
+        11486,
+        11542
+      ],
+      "relevant": [
+        false,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 11428,
+      "neighbor_ids": [
+        10799,
+        11517,
+        11362,
+        11492,
+        10817
+      ],
+      "relevant": [
+        false,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 11384,
+      "neighbor_ids": [
+        11385,
+        11389,
+        11387,
+        11533,
+        13492
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        false
+      ]
+    },
+    {
+      "query_id": 11506,
+      "neighbor_ids": [
+        11376,
+        11360,
+        11493,
+        11495,
+        11520
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 11484,
+      "neighbor_ids": [
+        11464,
+        11513,
+        10609,
+        14982,
+        13996
+      ],
+      "relevant": [
+        true,
+        true,
+        false,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 9167,
+      "neighbor_ids": [
+        9041,
+        9022,
+        9067,
+        10105,
+        10005
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        false,
+        false
+      ]
+    },
+    {
+      "query_id": 9159,
+      "neighbor_ids": [
+        9165,
+        9166,
+        9024,
+        9032,
+        9118
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9142,
+      "neighbor_ids": [
+        9156,
+        9137,
+        9153,
+        9088,
+        9141
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9067,
+      "neighbor_ids": [
+        8981,
+        9074,
+        9050,
+        9118,
+        9022
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    },
+    {
+      "query_id": 9144,
+      "neighbor_ids": [
+        9132,
+        9074,
+        9033,
+        9032,
+        9166
+      ],
+      "relevant": [
+        true,
+        true,
+        true,
+        true,
+        true
+      ]
+    }
+  ],
+  "methodology": "leave-one-out class agreement using cached frozen image embeddings",
+  "recorded_at_utc": "20261001T012316563954Z"
+}
