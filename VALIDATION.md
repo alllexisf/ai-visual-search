@@ -11,8 +11,8 @@ The checks ran using cached packages in this restricted workspace (Python 3.13 f
 
 Browser visual checks were attempted but could not run: local port binding is restricted and the installed browser could not launch under the workspace sandbox. The responsive UI has been compiled but has not been visually verified here.
 
-At the initial software check, performance numbers were pending. The user subsequently supplied completed measurements, now preserved in `RESULTS.md`; the original JSON artifacts still need to be attached. No raw per-query records or latencies have been invented.
+At the initial software check, performance numbers were pending. The user subsequently supplied completed measurements, now preserved in `RESULTS.md`; the original JSON artifacts are now attached and verified. No raw per-query records or latencies have been invented.
 
 ## User-run measurements
 
-The user subsequently completed real indexing, retrieval evaluation (695 queries), and an HTTP benchmark (220 successful searches). Their reported scores and methodology are now in `RESULTS.md`. Original raw JSON artifacts have not yet been attached to this workspace; see `results/run-notes.md`. The implementation checks above and the reported performance measurements are distinct evidence.
+The user subsequently completed real indexing, retrieval evaluation (695 queries), and an HTTP benchmark (220 successful searches). Their reported scores and methodology are now in `RESULTS.md`. Original JSON artifacts are preserved in `results/`. Retrieval metrics and latency percentiles were independently recomputed from the supplied records and match their stored values; query exclusion and matching index provenance were checked. See `results/run-notes.md` for artifact hashes and verification details. The implementation checks above and the reported performance measurements are distinct evidence.

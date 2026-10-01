@@ -205,7 +205,7 @@ The backend must already be running for the benchmark. In Docker, the report lis
 ## Measured results
 
 <!-- results:start -->
-Measured on the completed 15,538-image gallery. The report below was supplied by the user from `scripts/collect_results.py`; the original JSON artifacts are not yet available in this workspace. No raw latencies or neighbor IDs have been reconstructed from rounded values.
+Measured on the completed 15,538-image gallery. The user ran `scripts/collect_results.py` locally and supplied the original JSON artifacts. All three retrieval metrics and both latency percentiles were recomputed from those records and match the report. The original files are preserved without modification.
 
 <!-- evaluation:start -->
 ### Retrieval evaluation
@@ -223,7 +223,7 @@ Hardware: aarch64; 8 logical cores; 7.75 GiB RAM; Linux-6.12.76-linuxkit-aarch64
 Index: `e74982f744e53ca5`; model: `openai/clip-vit-base-patch32`; revision: `3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268`.
 These measure class agreement for image queries, not text retrieval or a probability of correctness.
 
-Original provenance filename: `results/evaluation-20261001T012316563954Z.json` (awaiting the original artifact).
+Provenance: [evaluation-20261001T012316563954Z.json](results/evaluation-20261001T012316563954Z.json).
 <!-- evaluation:end -->
 
 <!-- benchmark:start -->
@@ -244,12 +244,12 @@ Client hardware: aarch64; 8 logical cores; 7.75 GiB RAM.
 
 Index: `e74982f744e53ca5`; model `openai/clip-vit-base-patch32`; revision `3d74acf9a28c67741b2f4f2ea7635f0aaf6f0268`.
 
-Original provenance filename: `results/benchmark-20261001T013145391602Z.json` (awaiting the original artifact).
+Provenance: [benchmark-20261001T013145391602Z.json](results/benchmark-20261001T013145391602Z.json).
 <!-- benchmark:end -->
 
 ### Measurement context
 
-Both the HTTP client and server ran inside the Linux Docker environment. These figures describe sequential loopback HTTP search, not browser-to-host networking or concurrent load. `aarch64` identifies the architecture; the physical host CPU model was not reported by this container. CPU model and raw artifact attachment remain outstanding provenance details.
+Both the HTTP client and server ran inside the Linux Docker environment. These figures describe sequential loopback HTTP search, not browser-to-host networking or concurrent load. `aarch64` identifies the architecture; the physical host CPU model was not reported by this container. The specific physical host CPU model remains unavailable in these records.
 <!-- results:end -->
 
 ## Design notes
